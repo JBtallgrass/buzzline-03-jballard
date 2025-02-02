@@ -1,0 +1,1532 @@
+[
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Emily",
+        "uuid": "68054e7a-5836-4151-b11b-968e68c7b6e1",
+        "date": "2024-08-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Carlos",
+        "uuid": "4a2ccebd-479c-4854-abae-6d93061beb87",
+        "date": "2024-05-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Tyler",
+        "uuid": "7ba7cca9-39bb-4fbb-a908-234800ae412f",
+        "date": "2024-08-17",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Sophia",
+        "uuid": "e5f9bead-78d0-4201-886e-7547410228b7",
+        "date": "2024-08-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Ava",
+        "uuid": "f0b9e55f-b81c-4f7d-a02d-f336c1713a74",
+        "date": "2024-08-17",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Mason",
+        "uuid": "d0a3fcd3-13dd-4bcd-bb74-63f41054a463",
+        "date": "2024-06-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Jake",
+        "uuid": "9fa9ad73-ae5e-4544-8e08-daa8bad5ce93",
+        "date": "2024-05-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Tyler",
+        "uuid": "6eddee35-ab6c-4e5b-855e-6bdab949f817",
+        "date": "2024-08-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Olivia",
+        "uuid": "26dc931b-9c8e-4523-92fe-d0b524dbf9d3",
+        "date": "2024-06-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Ava",
+        "uuid": "addd71fe-7084-4c82-a953-a7c19beae564",
+        "date": "2024-06-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "c514e062-c7af-4318-866e-ab3bc2689b7f",
+        "date": "2024-06-19",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Ava",
+        "uuid": "f14d14f0-257c-44fe-9d63-d8025b335177",
+        "date": "2024-07-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Olivia",
+        "uuid": "15016243-696f-4949-b2da-5e1286131e27",
+        "date": "2024-07-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Tyler",
+        "uuid": "a0d0bffb-579f-4bb9-8ee3-ec1824caa133",
+        "date": "2024-06-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Liam",
+        "uuid": "3d2ff73c-e6ff-482c-ad9e-fe00be2be340",
+        "date": "2024-07-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Liam",
+        "uuid": "569418f3-112e-4b8e-8fa8-1b6cb3f6f887",
+        "date": "2024-05-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Carlos",
+        "uuid": "918bd3f1-70e4-4e57-9f5e-cd457b7037aa",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Ava",
+        "uuid": "725ee494-7ddf-4731-b64f-ed7e4d8d8e3e",
+        "date": "2024-06-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Samantha",
+        "uuid": "cada5798-78f1-4638-b3c1-a353806c4c87",
+        "date": "2024-06-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Carlos",
+        "uuid": "15ce7856-35f8-4636-bc1f-ee942c87c66d",
+        "date": "2024-07-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "c06d8a86-b316-47c9-84db-a9cad33bbf4c",
+        "date": "2024-07-10",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Liam",
+        "uuid": "becee10f-4ddb-4068-8aa0-6a70ad17a0f1",
+        "date": "2024-08-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Tyler",
+        "uuid": "a884d980-418c-42bf-9c5a-172e497e22c9",
+        "date": "2024-08-12",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Emily",
+        "uuid": "5f274797-e1cd-44ca-95a4-8a28570f28f4",
+        "date": "2024-08-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Mason",
+        "uuid": "ec5a02d4-7b58-43ba-b65e-2af20cb0875c",
+        "date": "2024-07-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Olivia",
+        "uuid": "408270e3-fb78-4571-af34-efa42c8ed7f8",
+        "date": "2024-06-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Carlos",
+        "uuid": "05ad1b81-133e-44e2-98bc-a24e9a3bbf6a",
+        "date": "2024-05-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Sophia",
+        "uuid": "50d87c6a-7a7d-4242-a412-a567d11b3fa0",
+        "date": "2024-06-16",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Olivia",
+        "uuid": "6aa72722-f78d-4bf4-94cf-d9300b6ba1ff",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Jake",
+        "uuid": "b2eb78ef-6da9-4951-89b3-6012f40a24aa",
+        "date": "2024-07-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Sophia",
+        "uuid": "ff26f49e-989f-4baa-9357-d2312ad8b0e2",
+        "date": "2024-05-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Tyler",
+        "uuid": "3fa0e603-ae4b-4a7c-8bfd-4e3a207276b0",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Emily",
+        "uuid": "e928df00-6514-444b-8455-5b64ecfec913",
+        "date": "2024-06-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Carlos",
+        "uuid": "3d6edbca-31f6-47ea-9922-d19683a3ff38",
+        "date": "2024-08-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Liam",
+        "uuid": "1b1dae5d-b40b-40fe-b2e8-dcd92fb96f04",
+        "date": "2024-07-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Jake",
+        "uuid": "24871133-8250-4202-8b5d-19272e032bcd",
+        "date": "2024-06-05",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Emily",
+        "uuid": "5130cdab-13fd-4322-86d8-f013a752e645",
+        "date": "2024-08-11",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Sophia",
+        "uuid": "e2387dfa-4593-4de9-8670-adcda463aebe",
+        "date": "2024-07-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Olivia",
+        "uuid": "44705e6e-f58e-4ced-b058-6a61ee9fcd7a",
+        "date": "2024-06-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Samantha",
+        "uuid": "afd62e87-e409-4052-bc2b-cb640b33c1cf",
+        "date": "2024-07-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Tyler",
+        "uuid": "25660df8-b8df-4252-bf97-59bf2c382e9b",
+        "date": "2024-08-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Jake",
+        "uuid": "eb5e5548-d2f0-480b-b7d9-bd0d8f576e20",
+        "date": "2024-07-08",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Carlos",
+        "uuid": "ac341935-03d1-4c1a-b168-376540b986c4",
+        "date": "2024-08-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Liam",
+        "uuid": "f7cd6289-996b-42bc-ac91-de0a5ebe20d5",
+        "date": "2024-05-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Liam",
+        "uuid": "a43155be-cb5d-4e68-9580-2e1cf75792b6",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Mason",
+        "uuid": "48fc3b7f-4eab-423d-808d-98feb0d571c9",
+        "date": "2024-07-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Emily",
+        "uuid": "2cd687d6-d6b2-48a2-9422-0660af5ddcba",
+        "date": "2024-08-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Jake",
+        "uuid": "4c26f5ee-709d-450d-bd3f-1adcf5d7c9b2",
+        "date": "2024-05-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Samantha",
+        "uuid": "054059a3-3f29-44c2-9c48-176cbb7e2ccc",
+        "date": "2024-07-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Sophia",
+        "uuid": "d5a260ee-64d7-46f1-b33a-e21d34270e29",
+        "date": "2024-08-20",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Tyler",
+        "uuid": "1993f693-01a3-4d89-be32-3a751f627eb6",
+        "date": "2024-06-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Mason",
+        "uuid": "7b3b22e3-78c0-473f-9eb5-c7328c609fbb",
+        "date": "2024-07-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Jake",
+        "uuid": "7dbc0aca-8978-4f3c-a45b-bd295d36b60e",
+        "date": "2024-05-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Sophia",
+        "uuid": "20366d24-61a7-44c1-a919-ef5642a4a436",
+        "date": "2024-06-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Emily",
+        "uuid": "5a7b68df-30ca-49c3-abed-390592dd9ba5",
+        "date": "2024-07-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Mason",
+        "uuid": "1a095786-0aff-4994-8d5b-e274ed90fdb5",
+        "date": "2024-06-11",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Samantha",
+        "uuid": "98c33b53-3ed2-4b3b-9ecd-99fa7836cb88",
+        "date": "2024-08-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Liam",
+        "uuid": "17305e34-6f8f-4a7a-8266-3c785e27ffaa",
+        "date": "2024-07-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Tyler",
+        "uuid": "6c77557b-f633-42e2-aab5-3ba111f0950f",
+        "date": "2024-08-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Emily",
+        "uuid": "7bb62738-5d67-4d52-8b49-f4a769af71d7",
+        "date": "2024-06-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Emily",
+        "uuid": "9971888b-cf0b-4294-9019-9b3e64238998",
+        "date": "2024-08-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Emily",
+        "uuid": "771368e0-6a12-4488-9792-ca86daf3789f",
+        "date": "2024-08-07",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Ava",
+        "uuid": "0308bdf2-2a97-4da0-aa46-95b4d71e58fe",
+        "date": "2024-08-14",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Tyler",
+        "uuid": "b934bb92-6d7d-4a81-8761-b4daa4257988",
+        "date": "2024-08-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Samantha",
+        "uuid": "27319631-758b-40cf-8376-3fe4e983be5b",
+        "date": "2024-07-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Samantha",
+        "uuid": "97d16ff8-b7f9-4106-afb2-89c7d5b8a29c",
+        "date": "2024-07-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Samantha",
+        "uuid": "6ae9e62b-d350-4640-bd6f-f82469b069d3",
+        "date": "2024-08-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Tyler",
+        "uuid": "984572ff-7ce6-49a8-bcbd-4fcf24148260",
+        "date": "2024-08-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Carlos",
+        "uuid": "96b66446-3681-4921-9d6e-0343515d9787",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Olivia",
+        "uuid": "d80a9096-18eb-461e-8a30-16734f2bbdcd",
+        "date": "2024-07-29",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Carlos",
+        "uuid": "3b26fadf-adc1-43f5-a55e-de08f257e43e",
+        "date": "2024-08-07",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Sophia",
+        "uuid": "f02c48e0-ccb9-414d-9bd6-0b4caa4241cd",
+        "date": "2024-08-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Samantha",
+        "uuid": "da4ff243-603c-4ad0-8be0-ccebde649e11",
+        "date": "2024-06-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Sophia",
+        "uuid": "7e311f8a-90a1-4704-a99f-387496dbe9e6",
+        "date": "2024-06-10",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Emily",
+        "uuid": "a47c3cc3-2ebc-4d0b-8ac8-5a190c1a7006",
+        "date": "2024-08-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Ava",
+        "uuid": "174823e7-e52e-48ac-9d78-a1914bb02f30",
+        "date": "2024-08-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Emily",
+        "uuid": "296d1566-5c98-43a9-9436-de931a6f3da1",
+        "date": "2024-07-05",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Olivia",
+        "uuid": "884647d9-7a5f-49ed-bb9f-655f028697b0",
+        "date": "2024-06-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Mason",
+        "uuid": "17681ea1-7ceb-4d6b-8bb2-0482ce3dd9d5",
+        "date": "2024-09-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Jake",
+        "uuid": "825be9ef-84ca-477b-a520-a287874d9780",
+        "date": "2024-07-14",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Olivia",
+        "uuid": "0452e5bf-e322-4895-970f-97cdabc28d93",
+        "date": "2024-07-08",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Sophia",
+        "uuid": "5049dd50-66e7-4655-a3d7-1ea0078a5ebc",
+        "date": "2024-06-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Samantha",
+        "uuid": "98379c2a-ae01-4521-b888-86d198b8ad5f",
+        "date": "2024-07-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Carlos",
+        "uuid": "99c394ef-c01f-48da-b409-7db33bf74f47",
+        "date": "2024-08-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Jake",
+        "uuid": "e289ae3f-3981-4217-8293-8614e6bf6129",
+        "date": "2024-07-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Carlos",
+        "uuid": "78fe37bc-4a58-417f-8d60-99e2f64482e5",
+        "date": "2024-08-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Mason",
+        "uuid": "644114c4-5674-4b5d-81d3-aa47b0f11daa",
+        "date": "2024-06-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Olivia",
+        "uuid": "6015f1d2-4dab-4a80-b557-b09aa5e64a14",
+        "date": "2024-08-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Jake",
+        "uuid": "f50cd915-aeb8-49bf-b01b-89a207b7b29c",
+        "date": "2024-06-28",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Olivia",
+        "uuid": "f53d1a68-61c7-45f7-a33d-268da743d07d",
+        "date": "2024-06-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Tyler",
+        "uuid": "4719ff03-c4b7-453d-8df8-8d0f31449591",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Emily",
+        "uuid": "6af72b82-32be-4459-a7dd-893b1290deec",
+        "date": "2024-05-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Sophia",
+        "uuid": "a7c6370a-6b6a-485f-9e91-1b133ac37311",
+        "date": "2024-05-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Olivia",
+        "uuid": "41b21b50-bde9-4803-9747-bbea69788d85",
+        "date": "2024-07-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Carlos",
+        "uuid": "5d9d4498-9dfc-442e-b019-ff2f10a1ae5f",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Carlos",
+        "uuid": "e59aa190-b7ca-45c5-a963-d1d035ffd4f4",
+        "date": "2024-05-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "ad4117fc-b43f-4112-87b3-78527b2444d3",
+        "date": "2024-08-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Jake",
+        "uuid": "993fb837-524e-4261-830f-0a46341015d9",
+        "date": "2024-06-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Olivia",
+        "uuid": "7e991c78-3558-4c21-8e67-88a4f654c336",
+        "date": "2024-06-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Tyler",
+        "uuid": "8837851a-72c3-4d8d-858e-213ce50f679f",
+        "date": "2024-06-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Liam",
+        "uuid": "2df932fc-82ea-4332-9bb3-baf046c869dd",
+        "date": "2024-07-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Emily",
+        "uuid": "9d8f5ef8-640b-49e2-8990-868546b7d3ae",
+        "date": "2024-06-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Ava",
+        "uuid": "33b0b391-13bf-487b-8a29-589e6c4b56d5",
+        "date": "2024-07-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Mason",
+        "uuid": "6c649b90-313a-4664-ab0a-abaa407d2f16",
+        "date": "2024-06-20",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Jake",
+        "uuid": "5a892457-606d-4cef-a761-69695c55766b",
+        "date": "2024-06-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Carlos",
+        "uuid": "1d8f2f26-a042-449e-87cf-83201cc422e6",
+        "date": "2024-06-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Carlos",
+        "uuid": "8b362ab2-323a-44f6-8d27-88899bacab30",
+        "date": "2024-08-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Sophia",
+        "uuid": "26ae51aa-d857-41a6-9e7a-ff9acd6ee5fa",
+        "date": "2024-07-13",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "295886dc-efa5-4ed6-975f-67865b63b289",
+        "date": "2024-06-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Samantha",
+        "uuid": "dd603a71-ca1a-4b7d-b78b-78890799cbbc",
+        "date": "2024-08-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Emily",
+        "uuid": "4602fa05-08e4-408b-a928-6f26e66f7d1b",
+        "date": "2024-06-13",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Had a great time with family, will be back next year.",
+        "guide": "Samantha",
+        "uuid": "c445e569-7454-44b9-9a30-60ea5aa66821",
+        "date": "2024-06-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Ava",
+        "uuid": "0ecdf966-4798-47cb-8273-584f94d1c9c7",
+        "date": "2024-07-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Emily",
+        "uuid": "97fd5d7a-4d7f-48ad-abe4-7d9d31d89e61",
+        "date": "2024-08-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Olivia",
+        "uuid": "9a145300-7abc-48ff-9ec4-02a2932e5018",
+        "date": "2024-06-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Tyler",
+        "uuid": "ed560dc5-321a-4e29-93d8-b909ecba5ca0",
+        "date": "2024-08-05",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Liam",
+        "uuid": "7df935c3-ae4a-41c4-aa1c-94472ad0ad46",
+        "date": "2024-06-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Jake",
+        "uuid": "632143cd-a9ca-41bb-9804-defd657efe88",
+        "date": "2024-08-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Carlos",
+        "uuid": "b48cbfdd-08da-410a-9601-5e2752bf8cc0",
+        "date": "2024-07-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Sophia",
+        "uuid": "8d2165c9-a187-40b8-a65d-9ee9733a5210",
+        "date": "2024-07-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Jake",
+        "uuid": "9194c930-274b-4c45-b0b8-a4587463e34d",
+        "date": "2024-07-10",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "c0045f48-93b7-4936-82e8-a5e0e533a9a7",
+        "date": "2024-06-30",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Jake",
+        "uuid": "4a8b70f5-7252-481a-95f0-cd1ea16d0946",
+        "date": "2024-08-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Liam",
+        "uuid": "84e8a3fe-57da-44d6-91e1-e7884acca3b0",
+        "date": "2024-06-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Ava",
+        "uuid": "f36501cf-4fbc-41fa-8c5f-3e585d6632c8",
+        "date": "2024-07-09",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Jake",
+        "uuid": "990b65da-e082-492b-9614-b94f9cd4e3d1",
+        "date": "2024-08-21",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Carlos",
+        "uuid": "f5838516-a226-4b87-9a8d-46112ea455c3",
+        "date": "2024-06-16",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Ava",
+        "uuid": "9f4a1eec-483f-4a29-b37d-126fc8c8cd4f",
+        "date": "2024-07-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "An absolutely thrilling experience! Would do it again.",
+        "guide": "Ava",
+        "uuid": "4d005c13-6773-493f-bdb4-6e5b9c7064e0",
+        "date": "2024-06-27",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Loved the scenery, the river was beautiful.",
+        "guide": "Mason",
+        "uuid": "19416fdc-a140-404b-88bb-589c5890b415",
+        "date": "2024-07-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Liam",
+        "uuid": "41a2328a-5e95-4c4e-b936-7d4ed21276f0",
+        "date": "2024-07-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Ava",
+        "uuid": "6cc5c3cd-51fd-43d4-97d4-9455f4611507",
+        "date": "2024-07-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Emily",
+        "uuid": "17a4b289-01a2-4314-92cd-d55efcdd47a1",
+        "date": "2024-07-17",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Tyler",
+        "uuid": "19191925-d5b7-417c-8d1d-9d81573d9cc7",
+        "date": "2024-06-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Mason",
+        "uuid": "8bd09876-b6eb-4ed9-8bb4-e9abf11da845",
+        "date": "2024-06-10",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Ava",
+        "uuid": "f0289f20-63a3-4e18-86ba-78c17cb5cd29",
+        "date": "2024-08-07",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The rapids were intense! Such an adrenaline rush.",
+        "guide": "Samantha",
+        "uuid": "2e1a5537-8036-4fac-8bc4-61951945478b",
+        "date": "2024-08-06",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Jake",
+        "uuid": "5547ca70-3ac8-4ae3-8328-926de656f1c9",
+        "date": "2024-09-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Emily",
+        "uuid": "d720c4e3-c80c-426c-b426-ccfc19947afb",
+        "date": "2024-08-27",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Liam",
+        "uuid": "28700a6b-4c95-4132-abda-301780b4e418",
+        "date": "2024-06-08",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "We got completely soaked, but it was worth it!",
+        "guide": "Jake",
+        "uuid": "322e4ce9-9320-4bc4-8080-5fd1216c9e1e",
+        "date": "2024-06-02",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Best weekend trip I've had in years!",
+        "guide": "Sophia",
+        "uuid": "74ba75fa-251b-4f95-b224-05e13d330d2b",
+        "date": "2024-08-23",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Ava",
+        "uuid": "e7e9065d-ce2c-4cce-9199-936691456684",
+        "date": "2024-07-08",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Perfect mix of excitement and relaxation.",
+        "guide": "Tyler",
+        "uuid": "5b423d95-522f-4294-9880-9df3dbaa1c18",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Tyler",
+        "uuid": "f95e8728-808e-468a-a377-2ca77194759e",
+        "date": "2024-07-25",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Sophia",
+        "uuid": "2cc27e86-7cd1-436d-859e-bfd60ad34c89",
+        "date": "2024-06-28",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Our guide was fantastic, made us feel safe the entire time.",
+        "guide": "Carlos",
+        "uuid": "8a9643b0-89fa-41a9-8f17-da0d23262f9f",
+        "date": "2024-07-31",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "The guide was so knowledgeable, learned a lot about the river.",
+        "guide": "Tyler",
+        "uuid": "d7268811-5eb9-4d95-9fec-269183e8751e",
+        "date": "2024-08-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Liam",
+        "uuid": "31ed5de6-f184-435e-afa8-4247a266eeb0",
+        "date": "2024-08-26",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "A great weekend adventure, I highly recommend it.",
+        "guide": "Emily",
+        "uuid": "eb90effd-df4f-4cf7-a160-7d7a05df1819",
+        "date": "2024-07-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": false
+    },
+    {
+        "comment": "Expected a longer trip, but it felt too short.",
+        "guide": "Samantha",
+        "uuid": "8da04167-c361-4da6-b03c-838da12a6029",
+        "date": "2024-08-19",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The rapids were too intense for beginners.",
+        "guide": "Jake",
+        "uuid": "29eda5a3-f41c-4bba-a010-4f3a7e73978a",
+        "date": "2024-06-24",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The campsite was poorly maintained.",
+        "guide": "Samantha",
+        "uuid": "cbadae83-4817-4267-87ff-4da9fb26e7b2",
+        "date": "2024-07-16",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide seemed uninterested and didn't engage much.",
+        "guide": "Ava",
+        "uuid": "ff6f3323-9d1b-4400-8d92-1ddbf4ef6d23",
+        "date": "2024-06-22",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The campsite was poorly maintained.",
+        "guide": "Jake",
+        "uuid": "f4254c77-e9ab-465e-b149-4bf16df2e796",
+        "date": "2024-07-08",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The equipment was old and worn out.",
+        "guide": "Carlos",
+        "uuid": "507a29fa-00bd-4396-8392-6d14472a382e",
+        "date": "2024-07-12",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Too expensive for what it was.",
+        "guide": "Liam",
+        "uuid": "c0fd8095-9f48-40b3-ad70-12696054d512",
+        "date": "2024-07-24",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The rapids were too intense for beginners.",
+        "guide": "Sophia",
+        "uuid": "84d2bcb2-2334-4e8c-968c-6cd6b80dc318",
+        "date": "2024-07-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Not enough instructions given before the trip.",
+        "guide": "Mason",
+        "uuid": "e6c18f31-3e55-4bd3-b015-5c2bc312eef4",
+        "date": "2024-07-26",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide seemed uninterested and didn't engage much.",
+        "guide": "Jake",
+        "uuid": "2c3f0d5b-d26d-42ef-97ec-d4d5bde9995c",
+        "date": "2024-08-17",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Too expensive for what it was.",
+        "guide": "Samantha",
+        "uuid": "bd5e9be6-2bdd-4411-8c27-4fc78f452d33",
+        "date": "2024-07-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Not enough instructions given before the trip.",
+        "guide": "Sophia",
+        "uuid": "3dd5631a-7430-4719-97bc-36a75c43f99a",
+        "date": "2024-08-08",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The equipment was old and worn out.",
+        "guide": "Jake",
+        "uuid": "e842493e-ea25-4d41-ac66-a56ac122cd5b",
+        "date": "2024-09-01",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The rapids were too intense for beginners.",
+        "guide": "Tyler",
+        "uuid": "68feb459-dd8d-4e3e-8d09-2e05a0e2cb1b",
+        "date": "2024-07-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Expected a longer trip, but it felt too short.",
+        "guide": "Emily",
+        "uuid": "77e62272-23a5-4bb8-b7fd-3ab43f45ef4c",
+        "date": "2024-06-15",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Too many people on the raft, felt overcrowded.",
+        "guide": "Liam",
+        "uuid": "37f7edfa-14f5-4df9-9048-de9bf2da0f82",
+        "date": "2024-07-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Too expensive for what it was.",
+        "guide": "Tyler",
+        "uuid": "59fa5091-7052-4758-8dec-0df51a16dce1",
+        "date": "2024-07-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The campsite was poorly maintained.",
+        "guide": "Tyler",
+        "uuid": "c9e0efa4-7a0c-4e9d-91e6-16fc95e5ca62",
+        "date": "2024-07-15",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "The rapids were too intense for beginners.",
+        "guide": "Tyler",
+        "uuid": "32f1fa98-aa7e-4ad7-b83c-bd5b94a32350",
+        "date": "2024-07-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    },
+    {
+        "comment": "Our guide seemed uninterested and didn't engage much.",
+        "guide": "Samantha",
+        "uuid": "ff4689d4-32bb-41ae-b2a6-5ac66e1da3c9",
+        "date": "2024-08-30",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-02T03:25:37.594321",
+        "is_negative": true
+    }
+]
