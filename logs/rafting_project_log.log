@@ -17,3 +17,74 @@
 2025-02-01T22:55:17.387972-0700 | INFO | Kafka broker address: localhost:9092
 2025-02-01T22:55:17.387972-0700 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
 2025-02-01T22:55:17.502612-0700 | INFO | Kafka consumer created successfully.
+2025-02-02T00:27:48.728224-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:27:48.730250-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
+2025-02-02T00:27:48.731242-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
+2025-02-02T00:27:48.731242-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
+2025-02-02T00:27:48.731242-0700 | INFO | START rafting producer.
+2025-02-02T00:27:48.731242-0700 | ERROR | Script C:\Users\balla\Projects\buzzline-03-jballard\producers\utils_generate_rafting_data.py not found. Exiting.
+2025-02-02T00:29:49.530423-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:29:49.533432-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
+2025-02-02T00:29:49.533432-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
+2025-02-02T00:29:49.533432-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
+2025-02-02T00:29:49.533432-0700 | INFO | START rafting producer.
+2025-02-02T00:29:49.533432-0700 | ERROR | Script C:\Users\balla\Projects\buzzline-03-jballard\producers\utils_generate_rafting_data.py not found. Exiting.
+2025-02-02T00:35:46.169651-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:41:13.128048-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:44:34.345431-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:44:34.348456-0700 | INFO | 🚀 START: Rafting Producer
+2025-02-02T00:44:34.348456-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T00:44:34.399701-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T00:44:34.399701-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T00:44:34.445762-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T00:44:34.446755-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T00:44:34.494273-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T00:44:34.495274-0700 | INFO | Zookeeper address: localhost:2181
+2025-02-02T00:44:38.604352-0700 | ERROR | Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-02-02T00:44:38.605365-0700 | ERROR | Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
+2025-02-02T00:49:35.477643-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:49:35.479643-0700 | INFO | 🚀 START: Rafting Producer
+2025-02-02T00:49:35.479643-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T00:49:35.528153-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T00:49:35.529154-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T00:49:35.576406-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T00:49:35.576406-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T00:49:35.621409-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T00:49:35.621409-0700 | INFO | Zookeeper address: localhost:2181
+2025-02-02T00:49:35.628394-0700 | INFO | Zookeeper is ready at localhost:2181.
+2025-02-02T00:49:35.629394-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-02T00:49:40.837212-0700 | ERROR | Error checking Kafka: NodeNotReadyError
+2025-02-02T00:49:40.840206-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-02-02T00:50:08.298773-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T00:50:08.301791-0700 | INFO | 🚀 START rafting consumer.
+2025-02-02T00:50:08.301791-0700 | INFO | Kafka topic: rafting_feedback
+2025-02-02T00:50:08.301791-0700 | INFO | Kafka consumer group id: rafting_group
+2025-02-02T00:50:08.301791-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-02T00:50:08.302773-0700 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
+2025-02-02T00:50:08.415076-0700 | INFO | Kafka consumer created successfully.
+2025-02-02T01:12:25.606685-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T01:12:25.609700-0700 | INFO | 🚀 START: Rafting Producer
+2025-02-02T01:12:25.610053-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T01:12:25.661478-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T01:12:25.661478-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T01:12:25.707836-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T01:12:25.708835-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T01:12:25.753425-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T01:12:25.753425-0700 | INFO | Zookeeper address: localhost:2181
+2025-02-02T01:12:25.785096-0700 | INFO | Zookeeper is ready at localhost:2181.
+2025-02-02T01:12:25.785096-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-02T01:12:27.805065-0700 | ERROR | Error checking Kafka: NoBrokersAvailable
+2025-02-02T01:12:27.807950-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-02-02T01:20:35.854786-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T01:20:35.856784-0700 | INFO | 🚀 START: Rafting Producer
+2025-02-02T01:20:35.857786-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T01:20:35.909839-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T01:20:35.910813-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T01:20:35.956149-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T01:20:35.957123-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T01:20:36.001150-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T01:20:36.002123-0700 | INFO | Zookeeper address: localhost:2181
+2025-02-02T01:20:36.032398-0700 | INFO | Zookeeper is ready at localhost:2181.
+2025-02-02T01:20:36.033402-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-02T01:20:38.046702-0700 | ERROR | Error checking Kafka: NoBrokersAvailable
+2025-02-02T01:20:38.048697-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
