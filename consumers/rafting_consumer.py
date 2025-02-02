@@ -7,7 +7,6 @@ The script will:
 - Parse JSON messages from Kafka.
 - Track positive and negative feedback per guide.
 - Log negative feedback for further investigation.
-
 """
 
 #####################################
@@ -81,13 +80,15 @@ def process_message(message: str) -> None:
         # Ensure it's a dictionary before accessing fields
         if isinstance(message_dict, dict):
             guide = message_dict.get("guide", "unknown")
+            comment = message_dict.get("comment", "No comment provided")  # ✅ Fix: Extract comment
             is_negative = message_dict.get("is_negative", False)
 
-            # Categorize feedback
+            # Process negative feedback with stop sign emoji
             if is_negative:
+                comment = f"🛑 {comment}"  # ✅ Fix: Add emoji here safely
                 guide_feedback[guide]["negative"] += 1
                 negative_feedback_log.append(message_dict)
-                logger.warning(f"Negative feedback received for {guide}: {message_dict['comment']}")
+                logger.warning(f"Negative feedback for {guide}: {comment}")  # ✅ Log with emoji
             else:
                 guide_feedback[guide]["positive"] += 1
             
@@ -101,6 +102,19 @@ def process_message(message: str) -> None:
         logger.error(f"Invalid JSON message: {message}")
     except Exception as e:
         logger.error(f"Error processing message: {e}")
+
+
+#####################################
+# Save Negative Feedback Log
+#####################################
+
+def log_negative_feedback():
+    """Save all negative feedback to a separate JSON file for analysis."""
+    if negative_feedback_log:
+        log_file = "negative_feedback.json"
+        with open(log_file, "w", encoding="utf-8") as f:
+            json.dump(negative_feedback_log, f, indent=4)
+        logger.info(f"Negative feedback log saved to {log_file}")
 
 
 #####################################
@@ -132,6 +146,7 @@ def main() -> None:
             message_str = message.value
             logger.debug(f"Received message at offset {message.offset}: {message_str}")
             process_message(message_str)
+            log_negative_feedback()  # ✅ Fix: Log negative feedback **inside the loop** for real-time updates
     except KeyboardInterrupt:
         logger.warning("Consumer interrupted by user.")
     except Exception as e:
@@ -140,23 +155,7 @@ def main() -> None:
         consumer.close()
         logger.info(f"Kafka consumer for topic '{topic}' closed.")
 
-    # Save negative feedback log to a JSON file for further analysis
-    log_negative_feedback()
-
     logger.info(f"END consumer for topic '{topic}' and group '{group_id}'.")
-
-
-#####################################
-# Save Negative Feedback Log
-#####################################
-
-def log_negative_feedback():
-    """Save all negative feedback to a separate JSON file for analysis."""
-    if negative_feedback_log:
-        log_file = "negative_feedback.json"
-        with open(log_file, "w", encoding="utf-8") as f:
-            json.dump(negative_feedback_log, f, indent=4)
-        logger.info(f"Negative feedback log saved to {log_file}")
 
 
 #####################################
