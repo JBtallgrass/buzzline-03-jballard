@@ -33,8 +33,13 @@ def generate_weather_data(output_file="data/weather_conditions.json"):
     ]
 
     # Save to JSON file
-    with open(data_file, "w", encoding="utf-8") as f:
+    with open(data_file, "w") as f:
         json.dump(weather_data, f, indent=4)
 
     print(f"Weather data saved to {data_file}")
     return data_file
+
+# Example usage:
+if __name__ == "__main__":
+    generated_file = generate_weather_data()
+    print(f"Generated weather file: {generated_file}")

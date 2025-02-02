@@ -28,6 +28,7 @@ MEMORIAL_DAY_2024 = datetime(2024, 5, 27)
 LABOR_DAY_2024 = datetime(2024, 9, 2)
 DATE_RANGE = (LABOR_DAY_2024 - MEMORIAL_DAY_2024).days
 
+# Define positive and negative customer comments
 # Define positive customer comments
 POSITIVE_COMMENTS = [
     "An absolutely thrilling experience! Would do it again.",
@@ -85,7 +86,6 @@ POSITIVE_COMMENTS = [
     "Nothing beats the feeling of conquering a tough rapid!"
 ]
 
-
 # Define negative customer comments
 NEGATIVE_COMMENTS = [
     "The water was too rough, not what I expected.",
@@ -121,7 +121,6 @@ NEGATIVE_COMMENTS = [
     "The shuttle service was late, causing delays."
 ]
 
-
 def generate_rafting_feedback(output_file="data/all_rafting_remarks.json"):
     """
     Generate and save rafting customer feedback.
@@ -133,7 +132,7 @@ def generate_rafting_feedback(output_file="data/all_rafting_remarks.json"):
         pathlib.Path: The path to the generated JSON file.
     """
     data_folder = pathlib.Path(output_file).parent
-    data_folder.mkdir(exist_ok=True)  # Ensure the directory exists
+    data_folder.mkdir(parents=True, exist_ok=True)  # Ensure the directory exists
     data_file = pathlib.Path(output_file)
 
     # Generate 150 positive and 20 negative comments
@@ -161,11 +160,13 @@ def generate_rafting_feedback(output_file="data/all_rafting_remarks.json"):
         for _ in range(20)
     ]
 
-    try:
-      with open(data_file, "w", encoding="utf-8") as f:
-        json.dump(customer_remarks, f, indent=4)
-      print(f"Rafting feedback data saved to {data_file}")
-    except Exception as e:
-      print(f"Error writing file: {e}")
+    # Save to a JSON file
+    with open(data_file, "w") as file:
+        json.dump(customer_remarks, file, indent=4)
 
-    return data_file  # Return the path for use in other scripts
+    return data_file  # Return the path for confirmation
+
+# Example usage:
+if __name__ == "__main__":
+    generated_file = generate_rafting_feedback()
+    print(f"Generated rafting feedback file: {generated_file}")

@@ -1,24 +1,9 @@
-"""
-rafting_producer.py
-
-Stream rafting customer remarks from a JSON file to a Kafka topic.
-
-Each message includes:
-- Customer comment
-- Guide's name
-- Trip date
-- Half-day or full-day trip type
-"""
-
-#####################################
-# Import Modules
-#####################################
-
 import os
 import sys
 import time
 import pathlib
 import json
+import subprocess  # <-- Allows running the utility scripts
 from dotenv import load_dotenv
 
 # Import Kafka utilities
@@ -36,6 +21,35 @@ from utils.utils_logger import logger
 load_dotenv()
 
 #####################################
+# Function to Run Data Generation Scripts
+#####################################
+
+def run_data_generators():
+    """
+    Run all data generation scripts before starting Kafka producer.
+    """
+    scripts = [
+        "utils_generate_rafting_data.py",
+        "utils_generate_river_flow.py",
+        "utils_generate_weather_data.py"
+    ]
+
+    for script in scripts:
+        script_path = pathlib.Path(__file__).parent.joinpath(script)
+
+        if script_path.exists():
+            logger.info(f"Generating data using {script_path}...")
+            try:
+                subprocess.run(["python", str(script_path)], check=True)
+                logger.info(f"Data generation successful for {script}")
+            except subprocess.CalledProcessError as e:
+                logger.error(f"Failed to generate data from {script}: {e}")
+                sys.exit(1)
+        else:
+            logger.error(f"Script {script_path} not found. Exiting.")
+            sys.exit(1)
+
+#####################################
 # Getter Functions for .env Variables
 #####################################
 
@@ -45,13 +59,11 @@ def get_kafka_topic() -> str:
     logger.info(f"Kafka topic: {topic}")
     return topic
 
-
 def get_message_interval() -> int:
     """Fetch message interval from environment or use default."""
     interval = int(os.getenv("RAFTING_INTERVAL_SECONDS", 2))
     logger.info(f"Message interval: {interval} seconds")
     return interval
-
 
 #####################################
 # Set up Paths
@@ -73,30 +85,17 @@ logger.info(f"Data file: {DATA_FILE}")
 #####################################
 
 def generate_messages(file_path: pathlib.Path):
-    """
-    Read from a JSON file and yield them one by one, continuously.
-
-    Args:
-        file_path (pathlib.Path): Path to the JSON file.
-
-    Yields:
-        dict: A dictionary containing the JSON data.
-    """
+    """Read from a JSON file and yield messages one by one."""
     while True:
         try:
-            logger.info(f"Opening data file in read mode: {DATA_FILE}")
+            logger.info(f"Opening data file: {DATA_FILE}")
             with open(DATA_FILE, "r", encoding="utf-8") as json_file:
-                logger.info(f"Reading data from file: {DATA_FILE}")
-
-                # Load JSON file as a list of dictionaries
                 json_data: list = json.load(json_file)
 
                 if not isinstance(json_data, list):
                     raise ValueError(f"Expected a list of JSON objects, got {type(json_data)}.")
 
-                # Iterate over each remark in the JSON file
                 for remark in json_data:
-                    logger.debug(f"Generated JSON: {remark}")
                     yield remark
         except FileNotFoundError:
             logger.error(f"File not found: {file_path}. Exiting.")
@@ -108,33 +107,37 @@ def generate_messages(file_path: pathlib.Path):
             logger.error(f"Unexpected error in message generation: {e}")
             sys.exit(3)
 
-
 #####################################
 # Main Function
 #####################################
 
 def main():
     """
-    Main entry point for this producer.
-
-    - Ensures the Kafka topic exists.
-    - Creates a Kafka producer using the `create_kafka_producer` utility.
-    - Streams rafting feedback JSON messages to the Kafka topic.
+    Main entry point for the producer:
+    - Runs all data generation scripts.
+    - Ensures Kafka topic exists.
+    - Creates Kafka producer.
+    - Streams messages from JSON file to Kafka.
     """
 
     logger.info("START rafting producer.")
+
+    # Step 1: Run all data generators
+    run_data_generators()
+
+    # Step 2: Verify Kafka Services
     verify_services()
 
     # Fetch .env settings
     topic = get_kafka_topic()
     interval_secs = get_message_interval()
 
-    # Verify the JSON data file exists
+    # Verify JSON data file exists
     if not DATA_FILE.exists():
         logger.error(f"Data file not found: {DATA_FILE}. Exiting.")
         sys.exit(1)
 
-    # Create the Kafka producer
+    # Create Kafka producer
     producer = create_kafka_producer(
         value_serializer=lambda x: json.dumps(x).encode("utf-8")
     )
@@ -142,7 +145,7 @@ def main():
         logger.error("Failed to create Kafka producer. Exiting...")
         sys.exit(3)
 
-    # Create the Kafka topic if it doesn't exist
+    # Create Kafka topic if it doesn't exist
     try:
         create_kafka_topic(topic)
         logger.info(f"Kafka topic '{topic}' is ready.")
@@ -154,7 +157,6 @@ def main():
     logger.info(f"Starting message production to topic '{topic}'...")
     try:
         for message_dict in generate_messages(DATA_FILE):
-            # Send message directly as a dictionary (producer handles serialization)
             producer.send(topic, value=message_dict)
             logger.info(f"Sent message to topic '{topic}': {message_dict}")
             time.sleep(interval_secs)
@@ -167,7 +169,6 @@ def main():
         logger.info("Kafka producer closed.")
 
     logger.info("END rafting producer.")
-
 
 #####################################
 # Conditional Execution

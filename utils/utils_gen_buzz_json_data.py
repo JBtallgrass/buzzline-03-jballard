@@ -23,7 +23,7 @@ buzz_data = [
 ]
 
 # Save to a JSON file
-output_file = "buzz.json"
+output_file = "rafting_data.json"
 with open(output_file, "w") as file:
     json.dump(buzz_data, file, indent=4)
 

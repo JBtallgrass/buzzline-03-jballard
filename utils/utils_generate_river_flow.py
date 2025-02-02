@@ -28,9 +28,13 @@ def generate_river_flow_data(output_file="data/river_flow.json"):
         for i in range(date_range + 1)
     ]
 
-    # Save to JSON file
-    with open(data_file, "w", encoding="utf-8") as f:
-        json.dump(river_data, f, indent=4)
+     # Save to a JSON file
+    with open(data_file, "w") as file:
+        json.dump(river_data, file, indent=4)
 
-    print(f"River flow data saved to {data_file}")
-    return data_file
+    return data_file  # Return the path for confirmation
+
+# Example usage:
+if __name__ == "__main__":
+    generated_file = generate_river_flow_data()
+    print(f"Generated river flow file: {generated_file}")
