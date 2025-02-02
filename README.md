@@ -1,142 +1,154 @@
-# buzzline-03-case
+🌊 Rafting Feedback Streaming Project
+This project streams and processes customer feedback from rafting trips on the French Broad River, NC using Apache Kafka. It integrates real-time rafting feedback with weather and river flow conditions, providing insights into customer experiences and environmental factors.
 
-Streaming data does not have to be simple text.
-Many of us are familiar with streaming video content and audio (e.g. music) files. 
+📌 Overview
+🎯 Goal: Stream structured (CSV) and semi-structured (JSON) data for real-time processing.
+🚣 Data Source: Customer rafting feedback, weather conditions, and river flow levels.
+⚡ Technologies: Kafka, Python, VS Code, .env Configurations.
+📊 Insights: Understand trip satisfaction, guide performance, and impact of environmental conditions.
+🛠️ Setup & Requirements
+1️⃣ Install Dependencies
+Before starting, ensure you have completed the setup tasks in:
 
-Streaming data can be structured (e.g. csv files) or
-semi-structured (e.g. json data). 
+https://github.com/denisecase/buzzline-01-case
+https://github.com/denisecase/buzzline-02-case
+✅ Python 3.11 required.
+✅ Kafka & Zookeeper must be installed and running.
 
-We'll work with two different types of data, and so we'll use two different Kafka topic names. 
-See [.env](.env). 
+2️⃣ Clone or Fork This Project
+Copy this project into your GitHub account and rename it to make it your own.
+Example:
 
+📢 Streaming JSON Data (Rafting Feedback)
+5️⃣ Start the JSON Producer
+This producer reads rafting feedback and sends it to Kafka.
+✅ Open a terminal and run:
 
-## Task 1. Use Tools from Module 1 and 2
-
-Before starting, ensure you have completed the setup tasks in <https://github.com/denisecase/buzzline-01-case> and <https://github.com/denisecase/buzzline-02-case> first. 
-Python 3.11 is required. 
-
-## Task 2. Copy This Example Project and Rename
-
-Once the tools are installed, copy/fork this project into your GitHub account
-and create your own version of this project to run and experiment with.
-Name it `buzzline-03-yourname` where yourname is something unique to you.
-Follow the instructions in [FORK-THIS-REPO.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/FORK-THIS-REPO.md).
-    
-
-## Task 3. Manage Local Project Virtual Environment
-
-Follow the instructions in [MANAGE-VENV.md](https://github.com/denisecase/buzzline-01-case/blob/main/docs/MANAGE-VENV.md) to:
-1. Create your .venv
-2. Activate .venv
-3. Install the required dependencies using requirements.txt.
-
-## Task 4. Start Zookeeper and Kafka (2 Terminals)
-
-If Zookeeper and Kafka are not already running, you'll need to restart them.
-See instructions at [SETUP-KAFKA.md] to:
-
-1. Start Zookeeper Service ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-7-start-zookeeper-service-terminal-1))
-2. Start Kafka ([link](https://github.com/denisecase/buzzline-02-case/blob/main/docs/SETUP-KAFKA.md#step-8-start-kafka-terminal-2))
-
-## Task 5. Start a JSON Producer
-
-In VS Code, open a terminal.
-Use the commands below to activate .venv, and start the producer. 
-
-Windows:
-
-```shell
-.venv\Scripts\activate
-py -m producers.json_producer_case
+```bash
+.venv\Scripts\activate  # Windows
+py -m producers.rafting_producer
 ```
 
-Mac/Linux:
-```zsh
-source .venv/bin/activate
-python3 -m producers.json_producer_case
+📌 Topic Name: rafting_feedback (See .env for customization.)
+
+6️⃣ Start the JSON Consumer
+The consumer listens for rafting feedback, logs negative comments, and cross-references weather & river flow data.
+
+✅ Open a new terminal and run:
+
+```bash
+Copy
+Edit
+.venv\Scripts\activate  # Windows
+py -m consumers.rafting_consumer
 ```
 
-What did we name the topic used with JSON data? 
-Hint: See the producer code and [.env](.env).
+🔹 Consumer Insights:
+✅ 🛑 Flags negative feedback with a STOP emoji.
+✅ ⛅ Logs weather conditions (rain, wind, temperature).
+✅ 🌊 Logs river flow & water levels.
+✅ 📜 Saves negative comments in negative_feedback.json.
 
-## Task 6. Start a JSON Consumer
+📊 Additional Data Processing
+7️⃣ Generate Weather & River Flow Data
+To compare rafting experiences with environmental conditions, generate synthetic data.
 
-Consumers process streaming data in real time.
+✅ Generate Weather Data:
 
-In VS Code, open a NEW terminal in your root project folder. 
-Use the commands below to activate .venv, and start the consumer. 
-
-Windows:
-```shell
-.venv\Scripts\activate
-py -m consumers.json_consumer_case
+```bash
+python -m utils.utils_generate_weather_data
 ```
 
-Mac/Linux:
-```zsh
-source .venv/bin/activate
-python3 -m consumers.json_consumer_case
+✅ Generate River Flow Data:
+
+```bash
+python -m utils.utils_generate_river_flow
 ```
 
-What did we name the topic used with JSON data? 
-Hint: See the consumer code and [.env](.env).
+✅ Check the Files:
 
-## Task 7. Start a CSV Producer
+```bash
+cat data/weather_conditions.json
+cat data/river_flow.json
+```
+🔹 These files are loaded into the consumer for real-time analysis.
 
-Follow a similar process to start the csv producer. 
-You will need to:
-1. Open a new terminal. 
-2. Activate your .venv.
-3. Know the command that works on your machine to execute python (e.g. py or python3).
-4. Know how to use the -m (module flag to run your file as a module).
-5. Know the full name of the module you want to run. Hint: Look in the producers folder.
+🔄 CSV Data Processing (Optional)
+This project also supports CSV streaming, similar to the JSON processing.
 
-What did we name the topic used with csv data? 
-Hint: See the producer code and [.env](.env).
+📌 Understanding the Data
+📜 JSON (Rafting Feedback)
+Example streaming JSON message:
 
-## Task 8. Start a CSV Consumer
+json
+Copy
+Edit
+{
+    "comment": "Loved the rapids, best trip ever!",
+    "guide": "Samantha",
+    "uuid": "123e4567-e89b-12d3-a456-426614174000",
+    "date": "2024-07-04",
+    "trip_type": "Full Day",
+    "timestamp": "2024-07-04T14:30:00Z",
+    "is_negative": false
+}
+📜 Weather Data (for Comparison)
 
-Follow a similar process to start the csv consumer. 
-You will need to:
-1. Open a new terminal. 
-2. Activate your .venv.
-3. Know the command that works on your machine to execute python (e.g. py or python3).
-4. Know how to use the -m (module flag to run your file as a module).
-5. Know the full name of the module you want to run. Hint: Look in the consumers folder.
+```json
+{
+    "date": "2024-07-04",
+    "temperature": 85,
+    "weather_condition": "Sunny",
+    "wind_speed": 10,
+    "precipitation": 0.0
+}
+📜 River Flow Data (for Comparison)
+ ```json
+{
+    "date": "2024-07-04",
+    "river_flow": 1200,
+    "water_level": 3.5,
+    "water_temperature": 68
+}
 
-What did we name the topic used with csv data? 
-Hint: See the consumer code and [.env](.env).
+🛑 Logging Negative Feedback
+✅ If a customer submits a negative comment, the consumer logs it with weather & river details.
 
-## About the Smart Smoker (CSV Example)
+Example Negative Review Log:
 
-A food stall occurs when the internal temperature of food plateaus or 
-stops rising during slow cooking, typically between 150°F and 170°F. 
-This happens due to evaporative cooling as moisture escapes from the 
-surface of the food. The plateau can last for hours, requiring 
-adjustments like wrapping the food or raising the cooking temperature to 
-overcome it. Cooking should continue until the food reaches the 
-appropriate internal temperature for safe and proper doneness.
+```bash
+WARNING: Negative feedback for Emily on 2024-07-04: 🛑 Guide was uninterested and barely spoke.
+WARNING: ⛅ Sunny | 🌡 85°F | 💨 Wind 10 mph | 🌧 No Rain
+WARNING: 🌊 Flow 1200 cfs | 📏 Water Level 3.5 ft | 🌡 Water Temp 68°F
+INFO: Negative feedback log saved to negative_feedback.json
+```
 
-The producer simulates a smart food thermometer, sending a temperature 
-reading every 15 seconds. The consumer monitors these messages and 
-maintains a time window of the last 5 readings. 
-If the temperature varies by less than 2 degrees, the consumer alerts 
-the BBQ master that a stall has been detected. This time window helps 
-capture recent trends while filtering out minor fluctuations.
+💡 Now you can analyze patterns! Are negative reviews more common on stormy days? Are higher river flows linked to safety concerns?
 
-## Later Work Sessions
-When resuming work on this project:
-1. Open the folder in VS Code. 
-2. Start the Zookeeper service.
-3. Start the Kafka service.
-4. Activate your local project virtual environment (.env).
+🔄 Resuming Work
+Each time you restart your project: 1️⃣ Open the folder in VS Code.
+2️⃣ Start Zookeeper & Kafka.
+3️⃣ Activate your virtual environment (.venv).
+4️⃣ Restart your producer & consumer scripts.
 
-## Save Space
-To save disk space, you can delete the .venv folder when not actively working on this project.
-You can always recreate it, activate it, and reinstall the necessary packages later. 
-Managing Python virtual environments is a valuable skill. 
+🛠 Saving Disk Space
+To free up space, delete your .venv folder when inactive.
+To restart, recreate .venv, install dependencies, and continue working seamlessly.
 
-## License
-This project is licensed under the MIT License as an example project. 
-You are encouraged to fork, copy, explore, and modify the code as you like. 
-See the [LICENSE](LICENSE.txt) file for more.
+📜 License
+This project is open-source under the MIT License.
+You are free to modify, fork, and experiment with this code.
+See the LICENSE for details.
+
+🚀 Next Steps
+📊 Analyze correlations between rafting feedback & environment.
+📈 Visualize data using Tableau, Matplotlib, or Pandas.
+🧠 Apply AI for sentiment analysis or predictive modeling.
+Happy coding! 🚣‍♂️💨 Enjoy building real-time analytics for adventure tourism! 🎉
+
+
+
+
+
+
+
