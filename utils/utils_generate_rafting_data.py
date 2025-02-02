@@ -161,11 +161,11 @@ def generate_rafting_feedback(output_file="data/all_rafting_remarks.json"):
         for _ in range(20)
     ]
 
-    # Save to a JSON file
-    with open(data_file, "w", encoding="utf-8") as f:
+    try:
+      with open(data_file, "w", encoding="utf-8") as f:
         json.dump(customer_remarks, f, indent=4)
-
-    # Log file creation
-    print(f"Rafting feedback data saved to {data_file}")
+      print(f"Rafting feedback data saved to {data_file}")
+    except Exception as e:
+      print(f"Error writing file: {e}")
 
     return data_file  # Return the path for use in other scripts

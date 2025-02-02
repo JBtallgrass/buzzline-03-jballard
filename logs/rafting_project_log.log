@@ -1,0 +1,19 @@
+2025-02-01T22:53:43.752219-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-01T22:53:43.754218-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
+2025-02-01T22:53:43.755238-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
+2025-02-01T22:53:43.755238-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
+2025-02-01T22:53:43.755238-0700 | INFO | START rafting producer.
+2025-02-01T22:53:43.755238-0700 | INFO | Zookeeper address: localhost:2181
+2025-02-01T22:53:43.777226-0700 | INFO | Zookeeper is ready at localhost:2181.
+2025-02-01T22:53:43.778225-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-01T22:53:49.008706-0700 | ERROR | Error checking Kafka: NodeNotReadyError
+2025-02-01T22:53:49.010719-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-02-01T22:55:17.384269-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-01T22:55:17.386972-0700 | ERROR | File not found: data/weather_conditions.json
+2025-02-01T22:55:17.386972-0700 | ERROR | File not found: data/river_flow.json
+2025-02-01T22:55:17.386972-0700 | INFO | 🚀 START rafting consumer.
+2025-02-01T22:55:17.386972-0700 | INFO | Kafka topic: rafting_feedback
+2025-02-01T22:55:17.387972-0700 | INFO | Kafka consumer group id: rafting_group
+2025-02-01T22:55:17.387972-0700 | INFO | Kafka broker address: localhost:9092
+2025-02-01T22:55:17.387972-0700 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
+2025-02-01T22:55:17.502612-0700 | INFO | Kafka consumer created successfully.

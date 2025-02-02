@@ -17,7 +17,7 @@ The following document outlines the setup tasks
 
 ➡️[Kafka Install Guide](Jballard_docs\kafka-install-guide.md)
 
-Tthe following documents provided the detailed setup instructions
+The following documents provided the detailed setup instructions
 
 https://github.com/denisecase/buzzline-01-case
 
@@ -37,26 +37,28 @@ For a detailed overview of the project, see:
 ➡️ [Project Overview](Jballard_docs\project_overview.md)
 
 📢 Streaming JSON Data (Rafting Feedback)
- Start the JSON Producer
-This producer reads rafting feedback and sends it to Kafka.
-✅ Open a terminal and run:
 
-```bash
-.venv\Scripts\activate  # Windows
-py -m producers.rafting_producer
-```
+This producer reads rafting feedback and sends it to Kafka.
 
 📌 Topic Name: rafting_feedback (See .env for customization.)
 
 🔹 Consumer Insights:
+
 ✅ 🛑 Flags negative feedback with a STOP emoji.
+
 ✅ ⛅ Logs weather conditions (rain, wind, temperature).
+
 ✅ 🌊 Logs river flow & water levels.
+
 ✅ 📜 Saves negative comments in negative_feedback.json.
 
-📊 Additional Data Processing
-## Generate Weather & River Flow Data
+## 📊 Additional Data Processing
+
+# Generate Weather & River Flow Data
+
 To compare rafting experiences with environmental conditions, generate synthetic data.
+
+    ✅ Generate Rafting Customer comments (+ and -)
 
     ✅ Generate Weather Data:
 
@@ -67,7 +69,8 @@ To compare rafting experiences with environmental conditions, generate synthetic
 ## 📌 Understanding the Data
 
 🛑 Logging Negative Feedback
-✅ If a customer submits a negative comment, the consumer logs it with weather & river details.
+
+    ✅ If a customer submits a negative comment, the consumer logs it with weather & river details.
 
 Example Negative Review Log:
 
@@ -90,18 +93,18 @@ To free up space, delete your .venv folder when inactive.
 To restart, recreate .venv, install dependencies, and continue working seamlessly.
 
 📜 License
-This project is open-source under the MIT License.
-You are free to modify, fork, and experiment with this code.
-See the LICENSE for details.
+_This project is open-source under the MIT License.You are free to modify, fork, and experiment with this code. See the LICENSE for details._
 
-🚀 Next Steps
+##🚀 Next Steps
 📊 Analyze correlations between rafting feedback & environment.
+
 📈 Visualize data using Tableau, Matplotlib, or Pandas.
+
 🧠 Apply AI for sentiment analysis or predictive modeling.
-Happy coding! 🚣‍♂️💨 Enjoy building real-time analytics for adventure tourism! 🎉
 
  [Automated Analysis](Jballard_docs\Automate_analysi.md)
 
+🚣‍♂️💨 Enjoy building real-time analytics for adventure tourism! 🎉
 
 
 
