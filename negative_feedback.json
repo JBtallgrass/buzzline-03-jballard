@@ -1,0 +1,222 @@
+[
+    {
+        "comment": "Too many people on the raft, felt overcrowded.",
+        "guide": "Liam",
+        "uuid": "96cc0d48-fb60-4050-81bd-8d3b1fb1cd03",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 72\u00b0F | \ud83d\udca8 Wind 12 mph | \ud83c\udf27 0.27 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1221 cfs | \ud83d\udccf Water Level 2.56 ft | \ud83c\udf21 Water Temp 58\u00b0F"
+    },
+    {
+        "comment": "We had to wait too long before getting started.",
+        "guide": "Carlos",
+        "uuid": "0ab6c6ca-e334-4a38-84c5-b3a8b1bca86d",
+        "date": "2024-07-21",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Cloudy | \ud83c\udf21 69\u00b0F | \ud83d\udca8 Wind 2 mph | \ud83c\udf27 0.81 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1598 cfs | \ud83d\udccf Water Level 4.27 ft | \ud83c\udf21 Water Temp 59\u00b0F"
+    },
+    {
+        "comment": "Felt unsafe at times, the guide wasn't very reassuring.",
+        "guide": "Carlos",
+        "uuid": "0bcf3b47-9113-4197-b251-b20b0e0074fd",
+        "date": "2024-08-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Stormy | \ud83c\udf21 84\u00b0F | \ud83d\udca8 Wind 9 mph | \ud83c\udf27 0.42 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1142 cfs | \ud83d\udccf Water Level 3.33 ft | \ud83c\udf21 Water Temp 72\u00b0F"
+    },
+    {
+        "comment": "The booking process was confusing and frustrating.",
+        "guide": "Carlos",
+        "uuid": "7d9cc04e-ec86-43d1-b04c-55be1179addc",
+        "date": "2024-06-09",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Stormy | \ud83c\udf21 90\u00b0F | \ud83d\udca8 Wind 9 mph | \ud83c\udf27 0.45 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 990 cfs | \ud83d\udccf Water Level 3.41 ft | \ud83c\udf21 Water Temp 71\u00b0F"
+    },
+    {
+        "comment": "Our guide seemed uninterested and didn't engage much.",
+        "guide": "Samantha",
+        "uuid": "e3924726-f1ca-4541-b027-c44747d70a19",
+        "date": "2024-07-01",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Sunny | \ud83c\udf21 85\u00b0F | \ud83d\udca8 Wind 4 mph | \ud83c\udf27 0.27 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1361 cfs | \ud83d\udccf Water Level 4.9 ft | \ud83c\udf21 Water Temp 57\u00b0F"
+    },
+    {
+        "comment": "The wetsuits provided were smelly and damp.",
+        "guide": "Jake",
+        "uuid": "f78f0ad8-2318-4272-ac72-05ee5d388c7b",
+        "date": "2024-08-20",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 61\u00b0F | \ud83d\udca8 Wind 6 mph | \ud83c\udf27 0.69 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1257 cfs | \ud83d\udccf Water Level 4.6 ft | \ud83c\udf21 Water Temp 56\u00b0F"
+    },
+    {
+        "comment": "The restroom facilities were dirty and lacked supplies.",
+        "guide": "Olivia",
+        "uuid": "53bb6e4d-5d2b-4724-b958-5899ab446671",
+        "date": "2024-08-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Stormy | \ud83c\udf21 61\u00b0F | \ud83d\udca8 Wind 1 mph | \ud83c\udf27 0.06 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1189 cfs | \ud83d\udccf Water Level 3.98 ft | \ud83c\udf21 Water Temp 58\u00b0F"
+    },
+    {
+        "comment": "The equipment was old and worn out.",
+        "guide": "Olivia",
+        "uuid": "3b475294-49ff-4b70-a607-f8646883964b",
+        "date": "2024-06-20",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Cloudy | \ud83c\udf21 77\u00b0F | \ud83d\udca8 Wind 8 mph | \ud83c\udf27 0.34 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1744 cfs | \ud83d\udccf Water Level 4.45 ft | \ud83c\udf21 Water Temp 59\u00b0F"
+    },
+    {
+        "comment": "The safety gear provided didn\u2019t fit properly.",
+        "guide": "Carlos",
+        "uuid": "ceff3183-adff-4f8d-af24-a4705697785b",
+        "date": "2024-07-22",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 70\u00b0F | \ud83d\udca8 Wind 3 mph | \ud83c\udf27 0.93 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1243 cfs | \ud83d\udccf Water Level 4.03 ft | \ud83c\udf21 Water Temp 63\u00b0F"
+    },
+    {
+        "comment": "Our guide seemed uninterested and didn't engage much.",
+        "guide": "Jake",
+        "uuid": "6be1e851-08fb-4212-8b99-df906ddf4626",
+        "date": "2024-06-03",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Sunny | \ud83c\udf21 68\u00b0F | \ud83d\udca8 Wind 2 mph | \ud83c\udf27 0.73 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1668 cfs | \ud83d\udccf Water Level 3.19 ft | \ud83c\udf21 Water Temp 62\u00b0F"
+    },
+    {
+        "comment": "The guides seemed more focused on their own fun than ours.",
+        "guide": "Samantha",
+        "uuid": "faa8d1be-7a92-4ffa-8e19-1b9e28fe5200",
+        "date": "2024-07-04",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Stormy | \ud83c\udf21 87\u00b0F | \ud83d\udca8 Wind 7 mph | \ud83c\udf27 0.62 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1481 cfs | \ud83d\udccf Water Level 3.46 ft | \ud83c\udf21 Water Temp 67\u00b0F"
+    },
+    {
+        "comment": "The shuttle service was late, causing delays.",
+        "guide": "Samantha",
+        "uuid": "6b2e0686-7270-447c-b76c-3944997e7203",
+        "date": "2024-08-06",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 73\u00b0F | \ud83d\udca8 Wind 8 mph | \ud83c\udf27 0.77 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1441 cfs | \ud83d\udccf Water Level 3.93 ft | \ud83c\udf21 Water Temp 66\u00b0F"
+    },
+    {
+        "comment": "Too many hidden fees, ended up costing way more than expected.",
+        "guide": "Olivia",
+        "uuid": "e8a16e50-6b28-4434-9d96-939ae801ed00",
+        "date": "2024-08-29",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Sunny | \ud83c\udf21 66\u00b0F | \ud83d\udca8 Wind 16 mph | \ud83c\udf27 0.77 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1747 cfs | \ud83d\udccf Water Level 4.76 ft | \ud83c\udf21 Water Temp 63\u00b0F"
+    },
+    {
+        "comment": "The pictures on the website were misleading.",
+        "guide": "Ava",
+        "uuid": "bc2b30bf-511b-4cbc-9be3-0ed5d1e94ef7",
+        "date": "2024-07-03",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 77\u00b0F | \ud83d\udca8 Wind 14 mph | \ud83c\udf27 0.56 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 878 cfs | \ud83d\udccf Water Level 4.26 ft | \ud83c\udf21 Water Temp 70\u00b0F"
+    },
+    {
+        "comment": "We had to wait too long before getting started.",
+        "guide": "Ava",
+        "uuid": "11714f4b-1ced-4ee2-bfb0-361147340427",
+        "date": "2024-06-23",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Cloudy | \ud83c\udf21 84\u00b0F | \ud83d\udca8 Wind 16 mph | \ud83c\udf27 0.98 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1158 cfs | \ud83d\udccf Water Level 4.71 ft | \ud83c\udf21 Water Temp 64\u00b0F"
+    },
+    {
+        "comment": "The experience did not match the description on the website.",
+        "guide": "Mason",
+        "uuid": "47abd12f-cba0-4062-89fb-6a47cc4f466f",
+        "date": "2024-07-18",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 62\u00b0F | \ud83d\udca8 Wind 13 mph | \ud83c\udf27 0.87 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1692 cfs | \ud83d\udccf Water Level 4.14 ft | \ud83c\udf21 Water Temp 57\u00b0F"
+    },
+    {
+        "comment": "The wetsuits provided were smelly and damp.",
+        "guide": "Jake",
+        "uuid": "bca9d187-af3b-4123-9156-09b22d520bba",
+        "date": "2024-07-25",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Cloudy | \ud83c\udf21 88\u00b0F | \ud83d\udca8 Wind 5 mph | \ud83c\udf27 0.07 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 974 cfs | \ud83d\udccf Water Level 3.25 ft | \ud83c\udf21 Water Temp 66\u00b0F"
+    },
+    {
+        "comment": "The shuttle service was late, causing delays.",
+        "guide": "Samantha",
+        "uuid": "5b12da1e-08d9-4314-9730-0060153cfe71",
+        "date": "2024-07-31",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Stormy | \ud83c\udf21 82\u00b0F | \ud83d\udca8 Wind 2 mph | \ud83c\udf27 0.87 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1483 cfs | \ud83d\udccf Water Level 4.52 ft | \ud83c\udf21 Water Temp 64\u00b0F"
+    },
+    {
+        "comment": "The rapids were too intense for beginners.",
+        "guide": "Samantha",
+        "uuid": "11623b25-49bd-4ab5-82c4-84db2eb63d28",
+        "date": "2024-06-18",
+        "trip_type": "Half Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Cloudy | \ud83c\udf21 77\u00b0F | \ud83d\udca8 Wind 4 mph | \ud83c\udf27 0.49 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1695 cfs | \ud83d\udccf Water Level 2.86 ft | \ud83c\udf21 Water Temp 62\u00b0F"
+    },
+    {
+        "comment": "Too many people on the raft, felt overcrowded.",
+        "guide": "Samantha",
+        "uuid": "f4d70280-b7a0-4994-814a-08c8ed4d419f",
+        "date": "2024-07-02",
+        "trip_type": "Full Day",
+        "timestamp": "2025-02-03T04:57:00.608435",
+        "is_negative": true,
+        "weather_summary": "\ud83c\udf24 Rainy | \ud83c\udf21 72\u00b0F | \ud83d\udca8 Wind 12 mph | \ud83c\udf27 0.27 inches rain",
+        "river_summary": "\ud83c\udf0a Flow 1221 cfs | \ud83d\udccf Water Level 2.56 ft | \ud83c\udf21 Water Temp 58\u00b0F"
+    }
+]
