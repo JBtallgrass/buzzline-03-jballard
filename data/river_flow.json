@@ -1,596 +1,596 @@
 [
     {
         "date": "2024-05-27",
-        "river_flow": 1141,
-        "water_level": 2.79,
-        "water_temperature": 60
-    },
-    {
-        "date": "2024-05-28",
-        "river_flow": 1062,
-        "water_level": 3.61,
-        "water_temperature": 56
-    },
-    {
-        "date": "2024-05-29",
-        "river_flow": 1299,
-        "water_level": 3.28,
-        "water_temperature": 65
-    },
-    {
-        "date": "2024-05-30",
-        "river_flow": 822,
-        "water_level": 3.38,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-05-31",
-        "river_flow": 1662,
-        "water_level": 4.99,
+        "river_flow": 1770,
+        "water_level": 3.86,
         "water_temperature": 58
     },
     {
-        "date": "2024-06-01",
-        "river_flow": 1933,
-        "water_level": 4.85,
-        "water_temperature": 67
+        "date": "2024-05-28",
+        "river_flow": 1570,
+        "water_level": 3.03,
+        "water_temperature": 70
     },
     {
-        "date": "2024-06-02",
-        "river_flow": 1960,
-        "water_level": 4.45,
-        "water_temperature": 73
+        "date": "2024-05-29",
+        "river_flow": 1361,
+        "water_level": 4.76,
+        "water_temperature": 66
     },
     {
-        "date": "2024-06-03",
-        "river_flow": 1461,
-        "water_level": 4.39,
-        "water_temperature": 67
-    },
-    {
-        "date": "2024-06-04",
-        "river_flow": 1194,
-        "water_level": 3.99,
-        "water_temperature": 62
-    },
-    {
-        "date": "2024-06-05",
-        "river_flow": 1581,
-        "water_level": 4.41,
-        "water_temperature": 65
-    },
-    {
-        "date": "2024-06-06",
-        "river_flow": 1443,
-        "water_level": 4.67,
-        "water_temperature": 67
-    },
-    {
-        "date": "2024-06-07",
-        "river_flow": 1470,
-        "water_level": 2.52,
-        "water_temperature": 59
-    },
-    {
-        "date": "2024-06-08",
-        "river_flow": 1991,
-        "water_level": 4.85,
-        "water_temperature": 73
-    },
-    {
-        "date": "2024-06-09",
-        "river_flow": 1571,
-        "water_level": 2.84,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-06-10",
-        "river_flow": 1721,
-        "water_level": 3.17,
-        "water_temperature": 59
-    },
-    {
-        "date": "2024-06-11",
-        "river_flow": 968,
-        "water_level": 3.45,
-        "water_temperature": 55
-    },
-    {
-        "date": "2024-06-12",
-        "river_flow": 1452,
+        "date": "2024-05-30",
+        "river_flow": 1271,
         "water_level": 2.94,
         "water_temperature": 60
     },
     {
+        "date": "2024-05-31",
+        "river_flow": 1198,
+        "water_level": 3.54,
+        "water_temperature": 62
+    },
+    {
+        "date": "2024-06-01",
+        "river_flow": 1636,
+        "water_level": 4.28,
+        "water_temperature": 72
+    },
+    {
+        "date": "2024-06-02",
+        "river_flow": 1546,
+        "water_level": 4.21,
+        "water_temperature": 65
+    },
+    {
+        "date": "2024-06-03",
+        "river_flow": 1872,
+        "water_level": 3.74,
+        "water_temperature": 59
+    },
+    {
+        "date": "2024-06-04",
+        "river_flow": 1032,
+        "water_level": 4.09,
+        "water_temperature": 62
+    },
+    {
+        "date": "2024-06-05",
+        "river_flow": 1627,
+        "water_level": 4.29,
+        "water_temperature": 55
+    },
+    {
+        "date": "2024-06-06",
+        "river_flow": 1282,
+        "water_level": 2.81,
+        "water_temperature": 69
+    },
+    {
+        "date": "2024-06-07",
+        "river_flow": 1254,
+        "water_level": 4.97,
+        "water_temperature": 66
+    },
+    {
+        "date": "2024-06-08",
+        "river_flow": 1926,
+        "water_level": 3.64,
+        "water_temperature": 55
+    },
+    {
+        "date": "2024-06-09",
+        "river_flow": 923,
+        "water_level": 4.66,
+        "water_temperature": 62
+    },
+    {
+        "date": "2024-06-10",
+        "river_flow": 1946,
+        "water_level": 3.64,
+        "water_temperature": 57
+    },
+    {
+        "date": "2024-06-11",
+        "river_flow": 1800,
+        "water_level": 4.51,
+        "water_temperature": 73
+    },
+    {
+        "date": "2024-06-12",
+        "river_flow": 1392,
+        "water_level": 3.21,
+        "water_temperature": 65
+    },
+    {
         "date": "2024-06-13",
-        "river_flow": 1838,
-        "water_level": 3.57,
-        "water_temperature": 60
+        "river_flow": 1393,
+        "water_level": 4.81,
+        "water_temperature": 59
     },
     {
         "date": "2024-06-14",
-        "river_flow": 1694,
-        "water_level": 3.38,
+        "river_flow": 978,
+        "water_level": 2.68,
         "water_temperature": 69
     },
     {
         "date": "2024-06-15",
-        "river_flow": 1083,
-        "water_level": 3.2,
-        "water_temperature": 69
+        "river_flow": 1872,
+        "water_level": 3.06,
+        "water_temperature": 63
     },
     {
         "date": "2024-06-16",
-        "river_flow": 983,
-        "water_level": 3.68,
-        "water_temperature": 55
+        "river_flow": 1659,
+        "water_level": 4.24,
+        "water_temperature": 74
     },
     {
         "date": "2024-06-17",
-        "river_flow": 1691,
-        "water_level": 2.78,
-        "water_temperature": 69
-    },
-    {
-        "date": "2024-06-18",
-        "river_flow": 850,
-        "water_level": 4.65,
-        "water_temperature": 55
-    },
-    {
-        "date": "2024-06-19",
-        "river_flow": 1350,
-        "water_level": 4.25,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-06-20",
-        "river_flow": 1265,
-        "water_level": 4.59,
-        "water_temperature": 69
-    },
-    {
-        "date": "2024-06-21",
-        "river_flow": 1617,
-        "water_level": 4.04,
+        "river_flow": 1384,
+        "water_level": 4.34,
         "water_temperature": 58
     },
     {
+        "date": "2024-06-18",
+        "river_flow": 1985,
+        "water_level": 2.92,
+        "water_temperature": 60
+    },
+    {
+        "date": "2024-06-19",
+        "river_flow": 1462,
+        "water_level": 4.54,
+        "water_temperature": 66
+    },
+    {
+        "date": "2024-06-20",
+        "river_flow": 1889,
+        "water_level": 3.92,
+        "water_temperature": 56
+    },
+    {
+        "date": "2024-06-21",
+        "river_flow": 1267,
+        "water_level": 3.17,
+        "water_temperature": 67
+    },
+    {
         "date": "2024-06-22",
-        "river_flow": 1125,
-        "water_level": 4.06,
+        "river_flow": 1680,
+        "water_level": 4.22,
         "water_temperature": 75
     },
     {
         "date": "2024-06-23",
-        "river_flow": 984,
-        "water_level": 3.42,
-        "water_temperature": 56
+        "river_flow": 1655,
+        "water_level": 3.23,
+        "water_temperature": 66
     },
     {
         "date": "2024-06-24",
-        "river_flow": 1605,
-        "water_level": 2.89,
-        "water_temperature": 70
+        "river_flow": 1732,
+        "water_level": 4.97,
+        "water_temperature": 61
     },
     {
         "date": "2024-06-25",
-        "river_flow": 1244,
-        "water_level": 3.47,
-        "water_temperature": 59
+        "river_flow": 884,
+        "water_level": 3.69,
+        "water_temperature": 75
     },
     {
         "date": "2024-06-26",
-        "river_flow": 888,
-        "water_level": 3.22,
+        "river_flow": 1400,
+        "water_level": 2.69,
         "water_temperature": 64
     },
     {
         "date": "2024-06-27",
-        "river_flow": 1518,
-        "water_level": 3.97,
-        "water_temperature": 62
+        "river_flow": 1910,
+        "water_level": 2.9,
+        "water_temperature": 73
     },
     {
         "date": "2024-06-28",
-        "river_flow": 1567,
-        "water_level": 3.6,
-        "water_temperature": 67
+        "river_flow": 1425,
+        "water_level": 4.5,
+        "water_temperature": 64
     },
     {
         "date": "2024-06-29",
-        "river_flow": 1107,
-        "water_level": 3.35,
-        "water_temperature": 74
+        "river_flow": 1623,
+        "water_level": 4.87,
+        "water_temperature": 72
     },
     {
         "date": "2024-06-30",
-        "river_flow": 1258,
-        "water_level": 2.51,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-07-01",
-        "river_flow": 1078,
-        "water_level": 4.88,
+        "river_flow": 1728,
+        "water_level": 2.92,
         "water_temperature": 55
     },
     {
-        "date": "2024-07-02",
-        "river_flow": 1652,
-        "water_level": 3.43,
-        "water_temperature": 62
-    },
-    {
-        "date": "2024-07-03",
-        "river_flow": 1047,
-        "water_level": 2.87,
+        "date": "2024-07-01",
+        "river_flow": 1856,
+        "water_level": 4.68,
         "water_temperature": 66
     },
     {
+        "date": "2024-07-02",
+        "river_flow": 1537,
+        "water_level": 3.09,
+        "water_temperature": 63
+    },
+    {
+        "date": "2024-07-03",
+        "river_flow": 800,
+        "water_level": 3.16,
+        "water_temperature": 72
+    },
+    {
         "date": "2024-07-04",
-        "river_flow": 1091,
-        "water_level": 3.79,
+        "river_flow": 1542,
+        "water_level": 4.62,
         "water_temperature": 65
     },
     {
         "date": "2024-07-05",
-        "river_flow": 1406,
-        "water_level": 3.54,
-        "water_temperature": 74
+        "river_flow": 1041,
+        "water_level": 2.72,
+        "water_temperature": 57
     },
     {
         "date": "2024-07-06",
-        "river_flow": 1562,
-        "water_level": 3.42,
-        "water_temperature": 72
+        "river_flow": 1119,
+        "water_level": 4.21,
+        "water_temperature": 64
     },
     {
         "date": "2024-07-07",
-        "river_flow": 811,
-        "water_level": 4.86,
-        "water_temperature": 74
-    },
-    {
-        "date": "2024-07-08",
-        "river_flow": 1242,
-        "water_level": 2.53,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-07-09",
-        "river_flow": 1285,
-        "water_level": 3.78,
-        "water_temperature": 74
-    },
-    {
-        "date": "2024-07-10",
-        "river_flow": 1823,
-        "water_level": 3.22,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-07-11",
-        "river_flow": 1392,
-        "water_level": 4.16,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-07-12",
-        "river_flow": 1511,
-        "water_level": 3.1,
+        "river_flow": 1355,
+        "water_level": 2.91,
         "water_temperature": 56
     },
     {
-        "date": "2024-07-13",
-        "river_flow": 1367,
-        "water_level": 4.14,
-        "water_temperature": 57
+        "date": "2024-07-08",
+        "river_flow": 1791,
+        "water_level": 4.57,
+        "water_temperature": 69
     },
     {
-        "date": "2024-07-14",
-        "river_flow": 1304,
-        "water_level": 2.93,
+        "date": "2024-07-09",
+        "river_flow": 1637,
+        "water_level": 2.63,
+        "water_temperature": 65
+    },
+    {
+        "date": "2024-07-10",
+        "river_flow": 1757,
+        "water_level": 2.68,
+        "water_temperature": 61
+    },
+    {
+        "date": "2024-07-11",
+        "river_flow": 1031,
+        "water_level": 3.43,
+        "water_temperature": 68
+    },
+    {
+        "date": "2024-07-12",
+        "river_flow": 1857,
+        "water_level": 4.9,
         "water_temperature": 59
     },
     {
+        "date": "2024-07-13",
+        "river_flow": 830,
+        "water_level": 2.93,
+        "water_temperature": 63
+    },
+    {
+        "date": "2024-07-14",
+        "river_flow": 1991,
+        "water_level": 4.17,
+        "water_temperature": 55
+    },
+    {
         "date": "2024-07-15",
-        "river_flow": 1904,
-        "water_level": 3.27,
-        "water_temperature": 71
+        "river_flow": 1496,
+        "water_level": 4.3,
+        "water_temperature": 69
     },
     {
         "date": "2024-07-16",
-        "river_flow": 1525,
-        "water_level": 4.8,
+        "river_flow": 1875,
+        "water_level": 4.56,
         "water_temperature": 68
     },
     {
         "date": "2024-07-17",
-        "river_flow": 855,
-        "water_level": 3.9,
-        "water_temperature": 67
+        "river_flow": 1317,
+        "water_level": 3.11,
+        "water_temperature": 59
     },
     {
         "date": "2024-07-18",
-        "river_flow": 1080,
-        "water_level": 3.23,
-        "water_temperature": 60
+        "river_flow": 2000,
+        "water_level": 4.11,
+        "water_temperature": 64
     },
     {
         "date": "2024-07-19",
-        "river_flow": 1197,
-        "water_level": 2.58,
-        "water_temperature": 66
-    },
-    {
-        "date": "2024-07-20",
-        "river_flow": 1627,
-        "water_level": 2.75,
-        "water_temperature": 67
-    },
-    {
-        "date": "2024-07-21",
-        "river_flow": 1985,
-        "water_level": 3.31,
-        "water_temperature": 72
-    },
-    {
-        "date": "2024-07-22",
-        "river_flow": 998,
-        "water_level": 4.84,
-        "water_temperature": 65
-    },
-    {
-        "date": "2024-07-23",
-        "river_flow": 1479,
-        "water_level": 4.64,
-        "water_temperature": 66
-    },
-    {
-        "date": "2024-07-24",
-        "river_flow": 906,
-        "water_level": 3.74,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-07-25",
-        "river_flow": 1722,
-        "water_level": 4.4,
-        "water_temperature": 71
-    },
-    {
-        "date": "2024-07-26",
-        "river_flow": 983,
-        "water_level": 4.96,
+        "river_flow": 1809,
+        "water_level": 4.82,
         "water_temperature": 55
     },
     {
+        "date": "2024-07-20",
+        "river_flow": 1436,
+        "water_level": 3.58,
+        "water_temperature": 55
+    },
+    {
+        "date": "2024-07-21",
+        "river_flow": 1050,
+        "water_level": 3.58,
+        "water_temperature": 61
+    },
+    {
+        "date": "2024-07-22",
+        "river_flow": 1324,
+        "water_level": 4.8,
+        "water_temperature": 69
+    },
+    {
+        "date": "2024-07-23",
+        "river_flow": 1909,
+        "water_level": 4.79,
+        "water_temperature": 62
+    },
+    {
+        "date": "2024-07-24",
+        "river_flow": 1425,
+        "water_level": 4.62,
+        "water_temperature": 70
+    },
+    {
+        "date": "2024-07-25",
+        "river_flow": 1517,
+        "water_level": 2.96,
+        "water_temperature": 58
+    },
+    {
+        "date": "2024-07-26",
+        "river_flow": 1379,
+        "water_level": 4.67,
+        "water_temperature": 60
+    },
+    {
         "date": "2024-07-27",
-        "river_flow": 1925,
-        "water_level": 4.45,
+        "river_flow": 1276,
+        "water_level": 3.95,
         "water_temperature": 65
     },
     {
         "date": "2024-07-28",
-        "river_flow": 1677,
-        "water_level": 4.76,
-        "water_temperature": 62
+        "river_flow": 1624,
+        "water_level": 4.73,
+        "water_temperature": 67
     },
     {
         "date": "2024-07-29",
-        "river_flow": 1475,
-        "water_level": 3.58,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-07-30",
-        "river_flow": 1222,
-        "water_level": 4.84,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-07-31",
-        "river_flow": 971,
-        "water_level": 3.54,
-        "water_temperature": 72
-    },
-    {
-        "date": "2024-08-01",
-        "river_flow": 1175,
-        "water_level": 4.0,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-08-02",
-        "river_flow": 1450,
-        "water_level": 3.66,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-08-03",
-        "river_flow": 1902,
-        "water_level": 3.89,
-        "water_temperature": 72
-    },
-    {
-        "date": "2024-08-04",
-        "river_flow": 1154,
-        "water_level": 4.15,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-08-05",
-        "river_flow": 1770,
-        "water_level": 4.06,
-        "water_temperature": 56
-    },
-    {
-        "date": "2024-08-06",
-        "river_flow": 1936,
-        "water_level": 4.63,
-        "water_temperature": 57
-    },
-    {
-        "date": "2024-08-07",
-        "river_flow": 1548,
-        "water_level": 2.53,
-        "water_temperature": 59
-    },
-    {
-        "date": "2024-08-08",
-        "river_flow": 1197,
-        "water_level": 4.92,
-        "water_temperature": 60
-    },
-    {
-        "date": "2024-08-09",
-        "river_flow": 1963,
-        "water_level": 3.27,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-08-10",
-        "river_flow": 856,
-        "water_level": 3.12,
-        "water_temperature": 62
-    },
-    {
-        "date": "2024-08-11",
-        "river_flow": 1315,
-        "water_level": 4.37,
-        "water_temperature": 64
-    },
-    {
-        "date": "2024-08-12",
-        "river_flow": 1595,
-        "water_level": 4.15,
-        "water_temperature": 72
-    },
-    {
-        "date": "2024-08-13",
-        "river_flow": 1699,
-        "water_level": 4.25,
-        "water_temperature": 59
-    },
-    {
-        "date": "2024-08-14",
-        "river_flow": 1435,
-        "water_level": 2.87,
-        "water_temperature": 75
-    },
-    {
-        "date": "2024-08-15",
-        "river_flow": 1270,
-        "water_level": 3.79,
-        "water_temperature": 62
-    },
-    {
-        "date": "2024-08-16",
-        "river_flow": 1445,
-        "water_level": 3.28,
-        "water_temperature": 58
-    },
-    {
-        "date": "2024-08-17",
-        "river_flow": 1246,
-        "water_level": 4.81,
-        "water_temperature": 69
-    },
-    {
-        "date": "2024-08-18",
-        "river_flow": 1389,
-        "water_level": 4.12,
-        "water_temperature": 66
-    },
-    {
-        "date": "2024-08-19",
-        "river_flow": 1303,
-        "water_level": 4.71,
+        "river_flow": 1247,
+        "water_level": 3.56,
         "water_temperature": 74
     },
     {
-        "date": "2024-08-20",
-        "river_flow": 1354,
-        "water_level": 4.93,
+        "date": "2024-07-30",
+        "river_flow": 1617,
+        "water_level": 3.64,
+        "water_temperature": 59
+    },
+    {
+        "date": "2024-07-31",
+        "river_flow": 1668,
+        "water_level": 4.22,
+        "water_temperature": 69
+    },
+    {
+        "date": "2024-08-01",
+        "river_flow": 1339,
+        "water_level": 2.87,
+        "water_temperature": 70
+    },
+    {
+        "date": "2024-08-02",
+        "river_flow": 1301,
+        "water_level": 4.23,
+        "water_temperature": 75
+    },
+    {
+        "date": "2024-08-03",
+        "river_flow": 1932,
+        "water_level": 3.88,
+        "water_temperature": 67
+    },
+    {
+        "date": "2024-08-04",
+        "river_flow": 1939,
+        "water_level": 3.7,
         "water_temperature": 66
     },
     {
+        "date": "2024-08-05",
+        "river_flow": 884,
+        "water_level": 4.77,
+        "water_temperature": 73
+    },
+    {
+        "date": "2024-08-06",
+        "river_flow": 1967,
+        "water_level": 4.98,
+        "water_temperature": 71
+    },
+    {
+        "date": "2024-08-07",
+        "river_flow": 1965,
+        "water_level": 2.58,
+        "water_temperature": 75
+    },
+    {
+        "date": "2024-08-08",
+        "river_flow": 1658,
+        "water_level": 2.69,
+        "water_temperature": 75
+    },
+    {
+        "date": "2024-08-09",
+        "river_flow": 878,
+        "water_level": 4.91,
+        "water_temperature": 64
+    },
+    {
+        "date": "2024-08-10",
+        "river_flow": 1736,
+        "water_level": 2.73,
+        "water_temperature": 69
+    },
+    {
+        "date": "2024-08-11",
+        "river_flow": 1858,
+        "water_level": 4.58,
+        "water_temperature": 65
+    },
+    {
+        "date": "2024-08-12",
+        "river_flow": 1135,
+        "water_level": 2.98,
+        "water_temperature": 63
+    },
+    {
+        "date": "2024-08-13",
+        "river_flow": 1925,
+        "water_level": 3.02,
+        "water_temperature": 64
+    },
+    {
+        "date": "2024-08-14",
+        "river_flow": 1206,
+        "water_level": 3.11,
+        "water_temperature": 70
+    },
+    {
+        "date": "2024-08-15",
+        "river_flow": 1959,
+        "water_level": 4.8,
+        "water_temperature": 70
+    },
+    {
+        "date": "2024-08-16",
+        "river_flow": 1639,
+        "water_level": 3.91,
+        "water_temperature": 67
+    },
+    {
+        "date": "2024-08-17",
+        "river_flow": 1541,
+        "water_level": 2.52,
+        "water_temperature": 74
+    },
+    {
+        "date": "2024-08-18",
+        "river_flow": 1159,
+        "water_level": 4.48,
+        "water_temperature": 75
+    },
+    {
+        "date": "2024-08-19",
+        "river_flow": 1780,
+        "water_level": 2.78,
+        "water_temperature": 61
+    },
+    {
+        "date": "2024-08-20",
+        "river_flow": 1736,
+        "water_level": 2.64,
+        "water_temperature": 65
+    },
+    {
         "date": "2024-08-21",
-        "river_flow": 1196,
-        "water_level": 4.08,
+        "river_flow": 1785,
+        "water_level": 3.0,
         "water_temperature": 65
     },
     {
         "date": "2024-08-22",
-        "river_flow": 1346,
-        "water_level": 3.04,
-        "water_temperature": 64
+        "river_flow": 1014,
+        "water_level": 4.63,
+        "water_temperature": 67
     },
     {
         "date": "2024-08-23",
-        "river_flow": 1502,
-        "water_level": 4.75,
-        "water_temperature": 75
+        "river_flow": 973,
+        "water_level": 4.84,
+        "water_temperature": 60
     },
     {
         "date": "2024-08-24",
-        "river_flow": 1964,
-        "water_level": 3.14,
-        "water_temperature": 56
+        "river_flow": 1704,
+        "water_level": 2.91,
+        "water_temperature": 71
     },
     {
         "date": "2024-08-25",
-        "river_flow": 1899,
-        "water_level": 3.62,
-        "water_temperature": 61
+        "river_flow": 1412,
+        "water_level": 4.03,
+        "water_temperature": 73
     },
     {
         "date": "2024-08-26",
-        "river_flow": 1116,
-        "water_level": 2.73,
-        "water_temperature": 57
+        "river_flow": 1674,
+        "water_level": 4.37,
+        "water_temperature": 70
     },
     {
         "date": "2024-08-27",
-        "river_flow": 869,
-        "water_level": 4.48,
-        "water_temperature": 56
+        "river_flow": 955,
+        "water_level": 3.9,
+        "water_temperature": 74
     },
     {
         "date": "2024-08-28",
-        "river_flow": 902,
-        "water_level": 4.84,
-        "water_temperature": 66
+        "river_flow": 861,
+        "water_level": 3.46,
+        "water_temperature": 61
     },
     {
         "date": "2024-08-29",
-        "river_flow": 878,
-        "water_level": 4.99,
-        "water_temperature": 64
+        "river_flow": 806,
+        "water_level": 3.67,
+        "water_temperature": 59
     },
     {
         "date": "2024-08-30",
-        "river_flow": 1825,
-        "water_level": 4.56,
-        "water_temperature": 66
+        "river_flow": 1283,
+        "water_level": 4.78,
+        "water_temperature": 69
     },
     {
         "date": "2024-08-31",
-        "river_flow": 1985,
-        "water_level": 2.98,
-        "water_temperature": 55
+        "river_flow": 1574,
+        "water_level": 4.39,
+        "water_temperature": 64
     },
     {
         "date": "2024-09-01",
-        "river_flow": 1217,
-        "water_level": 3.81,
-        "water_temperature": 56
+        "river_flow": 880,
+        "water_level": 4.28,
+        "water_temperature": 58
     },
     {
         "date": "2024-09-02",
-        "river_flow": 1041,
-        "water_level": 4.91,
-        "water_temperature": 67
+        "river_flow": 800,
+        "water_level": 3.32,
+        "water_temperature": 59
     }
 ]
