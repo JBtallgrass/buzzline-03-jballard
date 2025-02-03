@@ -1,0 +1,18 @@
+2025-02-02T22:32:24.372666-0600 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T22:32:24.376147-0600 | INFO | 🚀 START: Rafting Producer
+2025-02-02T22:32:24.377147-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T22:32:24.427147-0600 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T22:32:24.428148-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T22:32:24.478872-0600 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T22:32:24.510382-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T22:32:24.556160-0600 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T22:32:24.557213-0600 | INFO | Zookeeper address: localhost:2181  # Default for local Kafka installations
+2025-02-02T22:34:05.644434-0600 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T22:34:05.646214-0600 | INFO | 🚀 START: Rafting Producer
+2025-02-02T22:34:05.647212-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T22:34:05.709515-0600 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T22:34:05.709515-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T22:34:05.765321-0600 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T22:34:05.766320-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T22:34:05.814517-0600 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T22:34:05.814517-0600 | INFO | Zookeeper address: localhost:2181  # Default for local Kafka installations
