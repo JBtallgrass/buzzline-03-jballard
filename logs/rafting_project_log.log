@@ -907,3 +907,4 @@
 2025-02-02T20:03:06.860456-0600 | INFO | 📂 Negative feedback log saved to negative_feedback.json
 2025-02-02T20:03:08.857998-0600 | INFO | 🔻 Kafka producer closed.
 2025-02-02T20:03:08.859006-0600 | INFO | ✅ END: Rafting Producer
+2025-02-02T20:45:55.781296-0600 | WARNING | ⚠️ Consumer interrupted by user.
