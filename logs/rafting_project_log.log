@@ -1,90 +1,361 @@
-2025-02-01T22:53:43.752219-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-01T22:53:43.754218-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
-2025-02-01T22:53:43.755238-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
-2025-02-01T22:53:43.755238-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
-2025-02-01T22:53:43.755238-0700 | INFO | START rafting producer.
-2025-02-01T22:53:43.755238-0700 | INFO | Zookeeper address: localhost:2181
-2025-02-01T22:53:43.777226-0700 | INFO | Zookeeper is ready at localhost:2181.
-2025-02-01T22:53:43.778225-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-01T22:53:49.008706-0700 | ERROR | Error checking Kafka: NodeNotReadyError
-2025-02-01T22:53:49.010719-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
-2025-02-01T22:55:17.384269-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-01T22:55:17.386972-0700 | ERROR | File not found: data/weather_conditions.json
-2025-02-01T22:55:17.386972-0700 | ERROR | File not found: data/river_flow.json
-2025-02-01T22:55:17.386972-0700 | INFO | 🚀 START rafting consumer.
-2025-02-01T22:55:17.386972-0700 | INFO | Kafka topic: rafting_feedback
-2025-02-01T22:55:17.387972-0700 | INFO | Kafka consumer group id: rafting_group
-2025-02-01T22:55:17.387972-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-01T22:55:17.387972-0700 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
-2025-02-01T22:55:17.502612-0700 | INFO | Kafka consumer created successfully.
-2025-02-02T00:27:48.728224-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:27:48.730250-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
-2025-02-02T00:27:48.731242-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
-2025-02-02T00:27:48.731242-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
-2025-02-02T00:27:48.731242-0700 | INFO | START rafting producer.
-2025-02-02T00:27:48.731242-0700 | ERROR | Script C:\Users\balla\Projects\buzzline-03-jballard\producers\utils_generate_rafting_data.py not found. Exiting.
-2025-02-02T00:29:49.530423-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:29:49.533432-0700 | INFO | Project root: C:\Users\balla\Projects\buzzline-03-jballard
-2025-02-02T00:29:49.533432-0700 | INFO | Data folder: C:\Users\balla\Projects\buzzline-03-jballard\data
-2025-02-02T00:29:49.533432-0700 | INFO | Data file: C:\Users\balla\Projects\buzzline-03-jballard\data\all_rafting_remarks.json
-2025-02-02T00:29:49.533432-0700 | INFO | START rafting producer.
-2025-02-02T00:29:49.533432-0700 | ERROR | Script C:\Users\balla\Projects\buzzline-03-jballard\producers\utils_generate_rafting_data.py not found. Exiting.
-2025-02-02T00:35:46.169651-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:41:13.128048-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:44:34.345431-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:44:34.348456-0700 | INFO | 🚀 START: Rafting Producer
-2025-02-02T00:44:34.348456-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
-2025-02-02T00:44:34.399701-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
-2025-02-02T00:44:34.399701-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
-2025-02-02T00:44:34.445762-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
-2025-02-02T00:44:34.446755-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
-2025-02-02T00:44:34.494273-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
-2025-02-02T00:44:34.495274-0700 | INFO | Zookeeper address: localhost:2181
-2025-02-02T00:44:38.604352-0700 | ERROR | Error checking Zookeeper readiness: [WinError 10061] No connection could be made because the target machine actively refused it
-2025-02-02T00:44:38.605365-0700 | ERROR | Zookeeper is not ready. Please check your Zookeeper setup. Exiting...
-2025-02-02T00:49:35.477643-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:49:35.479643-0700 | INFO | 🚀 START: Rafting Producer
-2025-02-02T00:49:35.479643-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
-2025-02-02T00:49:35.528153-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
-2025-02-02T00:49:35.529154-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
-2025-02-02T00:49:35.576406-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
-2025-02-02T00:49:35.576406-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
-2025-02-02T00:49:35.621409-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
-2025-02-02T00:49:35.621409-0700 | INFO | Zookeeper address: localhost:2181
-2025-02-02T00:49:35.628394-0700 | INFO | Zookeeper is ready at localhost:2181.
-2025-02-02T00:49:35.629394-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-02T00:49:40.837212-0700 | ERROR | Error checking Kafka: NodeNotReadyError
-2025-02-02T00:49:40.840206-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
-2025-02-02T00:50:08.298773-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T00:50:08.301791-0700 | INFO | 🚀 START rafting consumer.
-2025-02-02T00:50:08.301791-0700 | INFO | Kafka topic: rafting_feedback
-2025-02-02T00:50:08.301791-0700 | INFO | Kafka consumer group id: rafting_group
-2025-02-02T00:50:08.301791-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-02T00:50:08.302773-0700 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
-2025-02-02T00:50:08.415076-0700 | INFO | Kafka consumer created successfully.
-2025-02-02T01:12:25.606685-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T01:12:25.609700-0700 | INFO | 🚀 START: Rafting Producer
-2025-02-02T01:12:25.610053-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
-2025-02-02T01:12:25.661478-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
-2025-02-02T01:12:25.661478-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
-2025-02-02T01:12:25.707836-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
-2025-02-02T01:12:25.708835-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
-2025-02-02T01:12:25.753425-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
-2025-02-02T01:12:25.753425-0700 | INFO | Zookeeper address: localhost:2181
-2025-02-02T01:12:25.785096-0700 | INFO | Zookeeper is ready at localhost:2181.
-2025-02-02T01:12:25.785096-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-02T01:12:27.805065-0700 | ERROR | Error checking Kafka: NoBrokersAvailable
-2025-02-02T01:12:27.807950-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
-2025-02-02T01:20:35.854786-0700 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
-2025-02-02T01:20:35.856784-0700 | INFO | 🚀 START: Rafting Producer
-2025-02-02T01:20:35.857786-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
-2025-02-02T01:20:35.909839-0700 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
-2025-02-02T01:20:35.910813-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
-2025-02-02T01:20:35.956149-0700 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
-2025-02-02T01:20:35.957123-0700 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
-2025-02-02T01:20:36.001150-0700 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
-2025-02-02T01:20:36.002123-0700 | INFO | Zookeeper address: localhost:2181
-2025-02-02T01:20:36.032398-0700 | INFO | Zookeeper is ready at localhost:2181.
-2025-02-02T01:20:36.033402-0700 | INFO | Kafka broker address: localhost:9092
-2025-02-02T01:20:38.046702-0700 | ERROR | Error checking Kafka: NoBrokersAvailable
-2025-02-02T01:20:38.048697-0700 | ERROR | Kafka broker is not ready. Please check your Kafka setup. Exiting...
+2025-02-02T19:57:27.016507-0600 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T19:57:27.019508-0600 | INFO | 🚀 START: Rafting Producer
+2025-02-02T19:57:27.019508-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_rafting_data.py
+2025-02-02T19:57:27.068044-0600 | INFO | ✅ Data generation successful: utils_generate_rafting_data.py
+2025-02-02T19:57:27.068044-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_river_flow.py
+2025-02-02T19:57:27.115045-0600 | INFO | ✅ Data generation successful: utils_generate_river_flow.py
+2025-02-02T19:57:27.116249-0600 | INFO | Running data generator: C:\Users\balla\Projects\buzzline-03-jballard\utils\utils_generate_weather_data.py
+2025-02-02T19:57:27.167560-0600 | INFO | ✅ Data generation successful: utils_generate_weather_data.py
+2025-02-02T19:57:27.167560-0600 | INFO | Zookeeper address: localhost:2181
+2025-02-02T19:57:27.174561-0600 | INFO | Zookeeper is ready at localhost:2181.
+2025-02-02T19:57:27.174561-0600 | INFO | Kafka broker address: localhost:9092
+2025-02-02T19:57:27.498077-0600 | INFO | Kafka is ready. Brokers: {'throttle_time_ms': 0, 'brokers': [{'node_id': 1001, 'host': 'localhost', 'port': 9092, 'rack': None}], 'cluster_id': '8Ef-gT5GRai9VuBjj9tLaQ', 'controller_id': 1001}
+2025-02-02T19:57:27.499081-0600 | INFO | Kafka broker address: localhost:9092
+2025-02-02T19:57:27.499081-0600 | INFO | Connecting to Kafka broker at localhost:9092...
+2025-02-02T19:57:27.606468-0600 | INFO | Kafka producer successfully created.
+2025-02-02T19:57:27.607468-0600 | INFO | Kafka broker address: localhost:9092
+2025-02-02T19:57:27.920664-0600 | INFO | Creating 'rafting_feedback'.
+2025-02-02T19:57:28.165412-0600 | INFO | Topic 'rafting_feedback' created successfully.
+2025-02-02T19:57:28.165412-0600 | INFO | ✅ Kafka topic 'rafting_feedback' is ready.
+2025-02-02T19:57:28.236646-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Great bonding experience for our group.', 'guide': 'Ava', 'uuid': '94f8c544-acb3-40b3-b60a-984d8f3a4f88', 'date': '2024-06-24', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.060044', 'is_negative': False}
+2025-02-02T19:57:30.239534-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A must-do experience for nature lovers!', 'guide': 'Tyler', 'uuid': '2c075693-1a51-4145-b474-6b140c83da69', 'date': '2024-08-15', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.060044', 'is_negative': False}
+2025-02-02T19:57:32.240442-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Would highly recommend this for thrill-seekers.', 'guide': 'Tyler', 'uuid': '379e5418-575b-4929-9173-894bdfbf1b02', 'date': '2024-08-09', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:34.241287-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-planned and executed smoothly.', 'guide': 'Jake', 'uuid': '5fe093f7-71d9-4fef-ad11-ba9fc0985ca2', 'date': '2024-05-27', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:34.486850-0600 | INFO | Logging rafting feedback to file: logs\rafting_project_log.log
+2025-02-02T19:57:34.491847-0600 | INFO | 🚀 START rafting consumer.
+2025-02-02T19:57:34.491847-0600 | INFO | Kafka topic: rafting_feedback
+2025-02-02T19:57:34.491847-0600 | INFO | Kafka consumer group id: rafting_group
+2025-02-02T19:57:34.491847-0600 | INFO | Kafka broker address: localhost:9092
+2025-02-02T19:57:34.491847-0600 | INFO | Creating Kafka consumer. Topic='rafting_feedback' and group ID='rafting_group'.
+2025-02-02T19:57:34.602767-0600 | INFO | Kafka consumer created successfully.
+2025-02-02T19:57:35.901425-0600 | INFO | 📝 Feedback (2024-06-24) | Guide: Ava | Comment: Great bonding experience for our group.
+2025-02-02T19:57:35.901425-0600 | INFO | ⛅ 🌤 Rainy | 🌡 87°F | 💨 Wind 7 mph | 🌧 0.2 inches rain
+2025-02-02T19:57:35.902426-0600 | INFO | 🌊 🌊 Flow 1605 cfs | 📏 Water Level 2.89 ft | 🌡 Water Temp 70°F
+2025-02-02T19:57:35.902426-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:35.902426-0600 | INFO | 📝 Feedback (2024-08-15) | Guide: Tyler | Comment: A must-do experience for nature lovers!
+2025-02-02T19:57:35.902426-0600 | INFO | ⛅ 🌤 Stormy | 🌡 74°F | 💨 Wind 3 mph | 🌧 0.82 inches rain
+2025-02-02T19:57:35.902426-0600 | INFO | 🌊 🌊 Flow 1270 cfs | 📏 Water Level 3.79 ft | 🌡 Water Temp 62°F
+2025-02-02T19:57:35.903427-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:35.903427-0600 | INFO | 📝 Feedback (2024-08-09) | Guide: Tyler | Comment: Would highly recommend this for thrill-seekers.
+2025-02-02T19:57:35.903427-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 76°F | 💨 Wind 10 mph | 🌧 0.56 inches rain
+2025-02-02T19:57:35.903427-0600 | INFO | 🌊 🌊 Flow 1963 cfs | 📏 Water Level 3.27 ft | 🌡 Water Temp 75°F
+2025-02-02T19:57:35.903427-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}}
+2025-02-02T19:57:35.904426-0600 | INFO | 📝 Feedback (2024-05-27) | Guide: Jake | Comment: Everything was well-planned and executed smoothly.
+2025-02-02T19:57:35.904426-0600 | INFO | ⛅ 🌤 Sunny | 🌡 60°F | 💨 Wind 17 mph | 🌧 0.24 inches rain
+2025-02-02T19:57:35.905426-0600 | INFO | 🌊 🌊 Flow 1141 cfs | 📏 Water Level 2.79 ft | 🌡 Water Temp 60°F
+2025-02-02T19:57:35.905426-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:36.242416-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'I can’t stop talking about this trip!', 'guide': 'Mason', 'uuid': 'a26a9cba-36ce-483d-aff5-a4b4eaa26c89', 'date': '2024-07-06', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:36.245930-0600 | INFO | 📝 Feedback (2024-07-06) | Guide: Mason | Comment: I can’t stop talking about this trip!
+2025-02-02T19:57:36.245930-0600 | INFO | ⛅ 🌤 Rainy | 🌡 82°F | 💨 Wind 5 mph | 🌧 0.37 inches rain
+2025-02-02T19:57:36.245930-0600 | INFO | 🌊 🌊 Flow 1562 cfs | 📏 Water Level 3.42 ft | 🌡 Water Temp 72°F
+2025-02-02T19:57:36.245930-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:38.243895-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-organized and seamless.', 'guide': 'Olivia', 'uuid': 'aed660f4-c0ad-4d50-86bc-336a294bb7ff', 'date': '2024-07-07', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:38.246899-0600 | INFO | 📝 Feedback (2024-07-07) | Guide: Olivia | Comment: Everything was well-organized and seamless.
+2025-02-02T19:57:38.246899-0600 | INFO | ⛅ 🌤 Rainy | 🌡 81°F | 💨 Wind 6 mph | 🌧 0.61 inches rain
+2025-02-02T19:57:38.246899-0600 | INFO | 🌊 🌊 Flow 811 cfs | 📏 Water Level 4.86 ft | 🌡 Water Temp 74°F
+2025-02-02T19:57:38.246899-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 1, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:40.246275-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-organized and seamless.', 'guide': 'Samantha', 'uuid': '79ec99db-cc7b-4fa4-b0ac-c0d92a12e898', 'date': '2024-07-20', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:40.250276-0600 | INFO | 📝 Feedback (2024-07-20) | Guide: Samantha | Comment: Everything was well-organized and seamless.
+2025-02-02T19:57:40.254277-0600 | INFO | ⛅ 🌤 Sunny | 🌡 87°F | 💨 Wind 13 mph | 🌧 0.9 inches rain
+2025-02-02T19:57:40.259276-0600 | INFO | 🌊 🌊 Flow 1627 cfs | 📏 Water Level 2.75 ft | 🌡 Water Temp 67°F
+2025-02-02T19:57:40.259276-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 1, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:42.251379-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'An unforgettable experience, can’t wait to book again!', 'guide': 'Samantha', 'uuid': 'a2203b93-5b6a-4ba1-9d83-809781003dae', 'date': '2024-06-07', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:42.255409-0600 | INFO | 📝 Feedback (2024-06-07) | Guide: Samantha | Comment: An unforgettable experience, can’t wait to book again!
+2025-02-02T19:57:42.255409-0600 | INFO | ⛅ 🌤 Stormy | 🌡 85°F | 💨 Wind 16 mph | 🌧 0.91 inches rain
+2025-02-02T19:57:42.255409-0600 | INFO | 🌊 🌊 Flow 1470 cfs | 📏 Water Level 2.52 ft | 🌡 Water Temp 59°F
+2025-02-02T19:57:42.255409-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 1, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 2, 'negative': 0}}
+2025-02-02T19:57:44.253241-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The lunch provided was delicious and fresh.', 'guide': 'Samantha', 'uuid': 'ebd9e3f4-9cc7-4cb6-969d-d85285c9c4fb', 'date': '2024-08-16', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:44.257248-0600 | INFO | 📝 Feedback (2024-08-16) | Guide: Samantha | Comment: The lunch provided was delicious and fresh.
+2025-02-02T19:57:44.257248-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 63°F | 💨 Wind 13 mph | 🌧 0.63 inches rain
+2025-02-02T19:57:44.257248-0600 | INFO | 🌊 🌊 Flow 1445 cfs | 📏 Water Level 3.28 ft | 🌡 Water Temp 58°F
+2025-02-02T19:57:44.257248-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 1, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}}
+2025-02-02T19:57:46.254150-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The water was just perfect for rafting!', 'guide': 'Mason', 'uuid': '258e26fa-ef88-4015-8fc5-14daf9954bf0', 'date': '2024-07-22', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:46.258375-0600 | INFO | 📝 Feedback (2024-07-22) | Guide: Mason | Comment: The water was just perfect for rafting!
+2025-02-02T19:57:46.258375-0600 | INFO | ⛅ 🌤 Sunny | 🌡 84°F | 💨 Wind 8 mph | 🌧 0.63 inches rain
+2025-02-02T19:57:46.259374-0600 | INFO | 🌊 🌊 Flow 998 cfs | 📏 Water Level 4.84 ft | 🌡 Water Temp 65°F
+2025-02-02T19:57:46.259374-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}}
+2025-02-02T19:57:48.259544-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Amazing views, felt like a scene from a movie.', 'guide': 'Liam', 'uuid': '18b40b31-e073-4e62-a406-cb8f1a6b1f87', 'date': '2024-07-26', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:48.262549-0600 | INFO | 📝 Feedback (2024-07-26) | Guide: Liam | Comment: Amazing views, felt like a scene from a movie.
+2025-02-02T19:57:48.262549-0600 | INFO | ⛅ 🌤 Sunny | 🌡 86°F | 💨 Wind 16 mph | 🌧 0.95 inches rain
+2025-02-02T19:57:48.262549-0600 | INFO | 🌊 🌊 Flow 983 cfs | 📏 Water Level 4.96 ft | 🌡 Water Temp 55°F
+2025-02-02T19:57:48.262549-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:50.260323-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The guides really knew their stuff and made us feel comfortable.', 'guide': 'Carlos', 'uuid': 'a4ffeffb-5a3b-49f8-a3cd-3283b96b8121', 'date': '2024-08-06', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:50.263332-0600 | INFO | 📝 Feedback (2024-08-06) | Guide: Carlos | Comment: The guides really knew their stuff and made us feel comfortable.
+2025-02-02T19:57:50.264330-0600 | INFO | ⛅ 🌤 Sunny | 🌡 78°F | 💨 Wind 4 mph | 🌧 0.17 inches rain
+2025-02-02T19:57:50.264330-0600 | INFO | 🌊 🌊 Flow 1936 cfs | 📏 Water Level 4.63 ft | 🌡 Water Temp 57°F
+2025-02-02T19:57:50.264330-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:52.262418-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Even my kids had an amazing time!', 'guide': 'Emily', 'uuid': '6194b6d3-1ac5-4b61-8b31-fb5d26f88f16', 'date': '2024-07-21', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:52.265932-0600 | INFO | 📝 Feedback (2024-07-21) | Guide: Emily | Comment: Even my kids had an amazing time!
+2025-02-02T19:57:52.265932-0600 | INFO | ⛅ 🌤 Rainy | 🌡 86°F | 💨 Wind 20 mph | 🌧 0.16 inches rain
+2025-02-02T19:57:52.265932-0600 | INFO | 🌊 🌊 Flow 1985 cfs | 📏 Water Level 3.31 ft | 🌡 Water Temp 72°F
+2025-02-02T19:57:52.266937-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 1, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:54.264816-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Saw an eagle soaring above us—what a moment!', 'guide': 'Ava', 'uuid': '2bf900b0-bc5d-41a2-b0cc-0cb0fde77869', 'date': '2024-06-30', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:54.270815-0600 | INFO | 📝 Feedback (2024-06-30) | Guide: Ava | Comment: Saw an eagle soaring above us—what a moment!
+2025-02-02T19:57:54.271984-0600 | INFO | ⛅ 🌤 Sunny | 🌡 80°F | 💨 Wind 13 mph | 🌧 0.18 inches rain
+2025-02-02T19:57:54.271984-0600 | INFO | 🌊 🌊 Flow 1258 cfs | 📏 Water Level 2.51 ft | 🌡 Water Temp 75°F
+2025-02-02T19:57:54.271984-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 1, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:56.266861-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-planned and executed smoothly.', 'guide': 'Jake', 'uuid': '36184838-716c-40c3-9480-4f648be7b3cc', 'date': '2024-07-31', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:56.277925-0600 | INFO | 📝 Feedback (2024-07-31) | Guide: Jake | Comment: Everything was well-planned and executed smoothly.
+2025-02-02T19:57:56.277925-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 87°F | 💨 Wind 5 mph | 🌧 0.88 inches rain
+2025-02-02T19:57:56.277925-0600 | INFO | 🌊 🌊 Flow 971 cfs | 📏 Water Level 3.54 ft | 🌡 Water Temp 72°F
+2025-02-02T19:57:56.277925-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 3, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}}
+2025-02-02T19:57:58.268159-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The guide was so knowledgeable, learned a lot about the river.', 'guide': 'Samantha', 'uuid': '1870e97c-a9d1-484a-b75a-18afc17f1cac', 'date': '2024-09-02', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:57:58.271669-0600 | INFO | 📝 Feedback (2024-09-02) | Guide: Samantha | Comment: The guide was so knowledgeable, learned a lot about the river.
+2025-02-02T19:57:58.272669-0600 | INFO | ⛅ 🌤 Sunny | 🌡 74°F | 💨 Wind 8 mph | 🌧 0.85 inches rain
+2025-02-02T19:57:58.272669-0600 | INFO | 🌊 🌊 Flow 1041 cfs | 📏 Water Level 4.91 ft | 🌡 Water Temp 67°F
+2025-02-02T19:57:58.272669-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:00.270410-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Great for corporate team-building activities.', 'guide': 'Sophia', 'uuid': '2395d450-dd75-412d-aded-53856cd7e5f4', 'date': '2024-08-23', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:00.273636-0600 | INFO | 📝 Feedback (2024-08-23) | Guide: Sophia | Comment: Great for corporate team-building activities.
+2025-02-02T19:58:00.274979-0600 | INFO | ⛅ 🌤 Rainy | 🌡 61°F | 💨 Wind 3 mph | 🌧 0.41 inches rain
+2025-02-02T19:58:00.275523-0600 | INFO | 🌊 🌊 Flow 1502 cfs | 📏 Water Level 4.75 ft | 🌡 Water Temp 75°F
+2025-02-02T19:58:00.275523-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 2, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:02.271748-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The sunset over the river was breathtaking.', 'guide': 'Mason', 'uuid': 'a4019788-c756-4346-acf9-31b4c7e2469c', 'date': '2024-07-15', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:02.273940-0600 | INFO | 📝 Feedback (2024-07-15) | Guide: Mason | Comment: The sunset over the river was breathtaking.
+2025-02-02T19:58:02.273940-0600 | INFO | ⛅ 🌤 Sunny | 🌡 73°F | 💨 Wind 4 mph | 🌧 0.98 inches rain
+2025-02-02T19:58:02.273940-0600 | INFO | 🌊 🌊 Flow 1904 cfs | 📏 Water Level 3.27 ft | 🌡 Water Temp 71°F
+2025-02-02T19:58:02.274940-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 1, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:04.273929-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The guide was so knowledgeable, learned a lot about the river.', 'guide': 'Carlos', 'uuid': '5a5baa52-68e8-4fd3-ac79-a564d28f951f', 'date': '2024-08-19', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:04.276954-0600 | INFO | 📝 Feedback (2024-08-19) | Guide: Carlos | Comment: The guide was so knowledgeable, learned a lot about the river.
+2025-02-02T19:58:04.276954-0600 | INFO | ⛅ 🌤 Rainy | 🌡 88°F | 💨 Wind 20 mph | 🌧 0.58 inches rain
+2025-02-02T19:58:04.276954-0600 | INFO | 🌊 🌊 Flow 1303 cfs | 📏 Water Level 4.71 ft | 🌡 Water Temp 74°F
+2025-02-02T19:58:04.276954-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 2, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:06.274859-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Even my kids had an amazing time!', 'guide': 'Carlos', 'uuid': 'ff3a46b1-0346-4048-81a5-43538339c386', 'date': '2024-05-29', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:06.277914-0600 | INFO | 📝 Feedback (2024-05-29) | Guide: Carlos | Comment: Even my kids had an amazing time!
+2025-02-02T19:58:06.277914-0600 | INFO | ⛅ 🌤 Rainy | 🌡 72°F | 💨 Wind 0 mph | 🌧 0.72 inches rain
+2025-02-02T19:58:06.277914-0600 | INFO | 🌊 🌊 Flow 1299 cfs | 📏 Water Level 3.28 ft | 🌡 Water Temp 65°F
+2025-02-02T19:58:06.278911-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 2, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:08.275760-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Even my kids had an amazing time!', 'guide': 'Ava', 'uuid': 'bf948b74-a637-420b-8423-34e1d6c800fe', 'date': '2024-08-04', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:08.278767-0600 | INFO | 📝 Feedback (2024-08-04) | Guide: Ava | Comment: Even my kids had an amazing time!
+2025-02-02T19:58:08.278767-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 62°F | 💨 Wind 12 mph | 🌧 0.44 inches rain
+2025-02-02T19:58:08.278767-0600 | INFO | 🌊 🌊 Flow 1154 cfs | 📏 Water Level 4.15 ft | 🌡 Water Temp 57°F
+2025-02-02T19:58:08.278767-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 2, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:10.276588-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A great way to escape the city and enjoy nature.', 'guide': 'Tyler', 'uuid': '0547278e-c48f-41e9-a9a4-dc6993b46465', 'date': '2024-08-14', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:10.279595-0600 | INFO | 📝 Feedback (2024-08-14) | Guide: Tyler | Comment: A great way to escape the city and enjoy nature.
+2025-02-02T19:58:10.280593-0600 | INFO | ⛅ 🌤 Rainy | 🌡 72°F | 💨 Wind 5 mph | 🌧 0.54 inches rain
+2025-02-02T19:58:10.280593-0600 | INFO | 🌊 🌊 Flow 1435 cfs | 📏 Water Level 2.87 ft | 🌡 Water Temp 75°F
+2025-02-02T19:58:10.280593-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 3, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 1, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:12.278185-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'This trip turned me into a rafting enthusiast!', 'guide': 'Liam', 'uuid': '216abe29-d1d2-40b3-b00b-01e8828b106f', 'date': '2024-06-04', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:12.281188-0600 | INFO | 📝 Feedback (2024-06-04) | Guide: Liam | Comment: This trip turned me into a rafting enthusiast!
+2025-02-02T19:58:12.281188-0600 | INFO | ⛅ 🌤 Stormy | 🌡 86°F | 💨 Wind 17 mph | 🌧 0.06 inches rain
+2025-02-02T19:58:12.282189-0600 | INFO | 🌊 🌊 Flow 1194 cfs | 📏 Water Level 3.99 ft | 🌡 Water Temp 62°F
+2025-02-02T19:58:12.282189-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 3, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 1, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:14.279337-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The sunset over the river was breathtaking.', 'guide': 'Emily', 'uuid': 'f2663a1c-0938-4334-bb5e-504520e56525', 'date': '2024-08-13', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:14.291726-0600 | INFO | 📝 Feedback (2024-08-13) | Guide: Emily | Comment: The sunset over the river was breathtaking.
+2025-02-02T19:58:14.291726-0600 | INFO | ⛅ 🌤 Rainy | 🌡 78°F | 💨 Wind 3 mph | 🌧 0.86 inches rain
+2025-02-02T19:58:14.291726-0600 | INFO | 🌊 🌊 Flow 1699 cfs | 📏 Water Level 4.25 ft | 🌡 Water Temp 59°F
+2025-02-02T19:58:14.291726-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 3, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 4, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:16.280770-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Loved the challenge of the rapids, definitely coming back.', 'guide': 'Samantha', 'uuid': '66aa8cf2-e4fc-4ecc-920c-da9d6a13e3a1', 'date': '2024-08-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:16.293165-0600 | INFO | 📝 Feedback (2024-08-27) | Guide: Samantha | Comment: Loved the challenge of the rapids, definitely coming back.
+2025-02-02T19:58:16.293165-0600 | INFO | ⛅ 🌤 Sunny | 🌡 72°F | 💨 Wind 13 mph | 🌧 0.69 inches rain
+2025-02-02T19:58:16.293165-0600 | INFO | 🌊 🌊 Flow 869 cfs | 📏 Water Level 4.48 ft | 🌡 Water Temp 56°F
+2025-02-02T19:58:16.293165-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 3, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:18.282682-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The trip was well-paced and enjoyable for all skill levels.', 'guide': 'Tyler', 'uuid': 'e853d835-df86-4bef-b920-18f564900d41', 'date': '2024-06-14', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:18.286687-0600 | INFO | 📝 Feedback (2024-06-14) | Guide: Tyler | Comment: The trip was well-paced and enjoyable for all skill levels.
+2025-02-02T19:58:18.286687-0600 | INFO | ⛅ 🌤 Rainy | 🌡 77°F | 💨 Wind 1 mph | 🌧 0.73 inches rain
+2025-02-02T19:58:18.287691-0600 | INFO | 🌊 🌊 Flow 1694 cfs | 📏 Water Level 3.38 ft | 🌡 Water Temp 69°F
+2025-02-02T19:58:18.287691-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 4, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:20.283434-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A bucket-list experience checked off!', 'guide': 'Tyler', 'uuid': '7c7b2c86-e086-4c8f-92a9-0cb1e7ee95bd', 'date': '2024-06-12', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:20.285438-0600 | INFO | 📝 Feedback (2024-06-12) | Guide: Tyler | Comment: A bucket-list experience checked off!
+2025-02-02T19:58:20.286439-0600 | INFO | ⛅ 🌤 Sunny | 🌡 74°F | 💨 Wind 4 mph | 🌧 0.76 inches rain
+2025-02-02T19:58:20.287437-0600 | INFO | 🌊 🌊 Flow 1452 cfs | 📏 Water Level 2.94 ft | 🌡 Water Temp 60°F
+2025-02-02T19:58:20.287437-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 3, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:22.284656-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Had a great time with family, will be back next year.', 'guide': 'Mason', 'uuid': 'b3a60aff-fcb0-4fcb-a69c-c82127b816ef', 'date': '2024-08-29', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:22.293660-0600 | INFO | 📝 Feedback (2024-08-29) | Guide: Mason | Comment: Had a great time with family, will be back next year.
+2025-02-02T19:58:22.293660-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 62°F | 💨 Wind 1 mph | 🌧 0.25 inches rain
+2025-02-02T19:58:22.294661-0600 | INFO | 🌊 🌊 Flow 878 cfs | 📏 Water Level 4.99 ft | 🌡 Water Temp 64°F
+2025-02-02T19:58:22.294661-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 4, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:24.288665-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Great for corporate team-building activities.', 'guide': 'Mason', 'uuid': 'f3dc2569-30a8-43ed-a19d-2d0d2ec64294', 'date': '2024-08-08', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:24.290671-0600 | INFO | 📝 Feedback (2024-08-08) | Guide: Mason | Comment: Great for corporate team-building activities.
+2025-02-02T19:58:24.290671-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 68°F | 💨 Wind 12 mph | 🌧 0.96 inches rain
+2025-02-02T19:58:24.291670-0600 | INFO | 🌊 🌊 Flow 1197 cfs | 📏 Water Level 4.92 ft | 🌡 Water Temp 60°F
+2025-02-02T19:58:24.291670-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 5, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 2, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:26.289689-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'I can’t stop talking about this trip!', 'guide': 'Emily', 'uuid': 'd4f3f609-90d4-42ab-aaaa-49dbc8ef031f', 'date': '2024-06-25', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:26.291695-0600 | INFO | 📝 Feedback (2024-06-25) | Guide: Emily | Comment: I can’t stop talking about this trip!
+2025-02-02T19:58:26.292697-0600 | INFO | ⛅ 🌤 Rainy | 🌡 71°F | 💨 Wind 14 mph | 🌧 0.86 inches rain
+2025-02-02T19:58:26.292697-0600 | INFO | 🌊 🌊 Flow 1244 cfs | 📏 Water Level 3.47 ft | 🌡 Water Temp 59°F
+2025-02-02T19:58:26.292697-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 5, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 3, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:28.290562-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Perfect mix of adventure and relaxation.', 'guide': 'Carlos', 'uuid': 'e6807363-d503-4ecf-9626-120f5e7dcf86', 'date': '2024-08-27', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:28.293568-0600 | INFO | 📝 Feedback (2024-08-27) | Guide: Carlos | Comment: Perfect mix of adventure and relaxation.
+2025-02-02T19:58:28.294566-0600 | INFO | ⛅ 🌤 Sunny | 🌡 72°F | 💨 Wind 13 mph | 🌧 0.69 inches rain
+2025-02-02T19:58:28.294566-0600 | INFO | 🌊 🌊 Flow 869 cfs | 📏 Water Level 4.48 ft | 🌡 Water Temp 56°F
+2025-02-02T19:58:28.294566-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 3, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 5, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:30.291862-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'We got completely soaked, but it was worth it!', 'guide': 'Ava', 'uuid': '71ca1312-0e37-4c14-94dd-adade527ed31', 'date': '2024-08-09', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:30.295022-0600 | INFO | 📝 Feedback (2024-08-09) | Guide: Ava | Comment: We got completely soaked, but it was worth it!
+2025-02-02T19:58:30.295022-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 76°F | 💨 Wind 10 mph | 🌧 0.56 inches rain
+2025-02-02T19:58:30.295022-0600 | INFO | 🌊 🌊 Flow 1963 cfs | 📏 Water Level 3.27 ft | 🌡 Water Temp 75°F
+2025-02-02T19:58:30.296020-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 4, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 5, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:32.293224-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Would highly recommend this for thrill-seekers.', 'guide': 'Mason', 'uuid': 'bb68b547-0418-47cd-84d5-e2bb4d48a010', 'date': '2024-06-03', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:32.296237-0600 | INFO | 📝 Feedback (2024-06-03) | Guide: Mason | Comment: Would highly recommend this for thrill-seekers.
+2025-02-02T19:58:32.296237-0600 | INFO | ⛅ 🌤 Sunny | 🌡 61°F | 💨 Wind 0 mph | 🌧 0.85 inches rain
+2025-02-02T19:58:32.297236-0600 | INFO | 🌊 🌊 Flow 1461 cfs | 📏 Water Level 4.39 ft | 🌡 Water Temp 67°F
+2025-02-02T19:58:32.297236-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 4, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:34.297415-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The whole experience exceeded my expectations.', 'guide': 'Ava', 'uuid': '3324b24a-9bde-484f-ac16-609cbe2f1e0e', 'date': '2024-06-21', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:34.299327-0600 | INFO | 📝 Feedback (2024-06-21) | Guide: Ava | Comment: The whole experience exceeded my expectations.
+2025-02-02T19:58:34.300327-0600 | INFO | ⛅ 🌤 Stormy | 🌡 73°F | 💨 Wind 2 mph | 🌧 0.32 inches rain
+2025-02-02T19:58:34.300327-0600 | INFO | 🌊 🌊 Flow 1617 cfs | 📏 Water Level 4.04 ft | 🌡 Water Temp 58°F
+2025-02-02T19:58:34.300327-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 5, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:36.298219-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A bucket-list experience checked off!', 'guide': 'Samantha', 'uuid': 'fbb9a2db-1d06-4c4c-9cfb-df0ef18adeb1', 'date': '2024-08-24', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:36.300226-0600 | INFO | 📝 Feedback (2024-08-24) | Guide: Samantha | Comment: A bucket-list experience checked off!
+2025-02-02T19:58:36.301223-0600 | INFO | ⛅ 🌤 Rainy | 🌡 68°F | 💨 Wind 14 mph | 🌧 0.01 inches rain
+2025-02-02T19:58:36.301223-0600 | INFO | 🌊 🌊 Flow 1964 cfs | 📏 Water Level 3.14 ft | 🌡 Water Temp 56°F
+2025-02-02T19:58:36.301223-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 6, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:38.299680-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Perfect mix of excitement and relaxation.', 'guide': 'Samantha', 'uuid': 'afcc6dd1-9955-4fba-956c-04cd05d97b95', 'date': '2024-06-28', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:38.309035-0600 | INFO | 📝 Feedback (2024-06-28) | Guide: Samantha | Comment: Perfect mix of excitement and relaxation.
+2025-02-02T19:58:38.309918-0600 | INFO | ⛅ 🌤 Sunny | 🌡 66°F | 💨 Wind 20 mph | 🌧 0.54 inches rain
+2025-02-02T19:58:38.309918-0600 | INFO | 🌊 🌊 Flow 1567 cfs | 📏 Water Level 3.6 ft | 🌡 Water Temp 67°F
+2025-02-02T19:58:38.310919-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 7, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 3, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:40.301382-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Even my kids had an amazing time!', 'guide': 'Emily', 'uuid': '14a36faf-6567-471c-a9cd-0734e7d22904', 'date': '2024-06-26', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:40.309540-0600 | INFO | 📝 Feedback (2024-06-26) | Guide: Emily | Comment: Even my kids had an amazing time!
+2025-02-02T19:58:40.309540-0600 | INFO | ⛅ 🌤 Stormy | 🌡 88°F | 💨 Wind 17 mph | 🌧 0.97 inches rain
+2025-02-02T19:58:40.309540-0600 | INFO | 🌊 🌊 Flow 888 cfs | 📏 Water Level 3.22 ft | 🌡 Water Temp 64°F
+2025-02-02T19:58:40.309540-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 7, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:42.304155-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-organized and seamless.', 'guide': 'Samantha', 'uuid': '1201f89f-cefa-4160-9175-d7b48c5f1bbe', 'date': '2024-05-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:42.309160-0600 | INFO | 📝 Feedback (2024-05-27) | Guide: Samantha | Comment: Everything was well-organized and seamless.
+2025-02-02T19:58:42.309160-0600 | INFO | ⛅ 🌤 Sunny | 🌡 60°F | 💨 Wind 17 mph | 🌧 0.24 inches rain
+2025-02-02T19:58:42.309160-0600 | INFO | 🌊 🌊 Flow 1141 cfs | 📏 Water Level 2.79 ft | 🌡 Water Temp 60°F
+2025-02-02T19:58:42.310159-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 5, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:44.305383-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Felt completely safe the entire time.', 'guide': 'Tyler', 'uuid': 'd27d2810-1892-4efc-a00e-cd0053e1ced8', 'date': '2024-06-01', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:44.312386-0600 | INFO | 📝 Feedback (2024-06-01) | Guide: Tyler | Comment: Felt completely safe the entire time.
+2025-02-02T19:58:44.312386-0600 | INFO | ⛅ 🌤 Sunny | 🌡 66°F | 💨 Wind 18 mph | 🌧 0.9 inches rain
+2025-02-02T19:58:44.312386-0600 | INFO | 🌊 🌊 Flow 1933 cfs | 📏 Water Level 4.85 ft | 🌡 Water Temp 67°F
+2025-02-02T19:58:44.312386-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 6, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:46.312533-0600 | INFO | 📝 Feedback (2024-06-10) | Guide: Mason | Comment: Loved the team spirit our guide encouraged.
+2025-02-02T19:58:46.312533-0600 | INFO | ⛅ 🌤 Rainy | 🌡 86°F | 💨 Wind 20 mph | 🌧 0.64 inches rain
+2025-02-02T19:58:46.312533-0600 | INFO | 🌊 🌊 Flow 1721 cfs | 📏 Water Level 3.17 ft | 🌡 Water Temp 59°F
+2025-02-02T19:58:46.313533-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 2, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:46.312533-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Loved the team spirit our guide encouraged.', 'guide': 'Mason', 'uuid': 'f2d75f7d-1eae-41f7-a7fb-da773fc31880', 'date': '2024-06-10', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:48.315360-0600 | INFO | 📨 Sent message to Kafka: {'comment': "Best weekend trip I've had in years!", 'guide': 'Jake', 'uuid': '03832d22-609a-4cb9-947a-35917c5262d3', 'date': '2024-06-20', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:48.318367-0600 | INFO | 📝 Feedback (2024-06-20) | Guide: Jake | Comment: Best weekend trip I've had in years!
+2025-02-02T19:58:48.318367-0600 | INFO | ⛅ 🌤 Stormy | 🌡 80°F | 💨 Wind 15 mph | 🌧 0.13 inches rain
+2025-02-02T19:58:48.322567-0600 | INFO | 🌊 🌊 Flow 1265 cfs | 📏 Water Level 4.59 ft | 🌡 Water Temp 69°F
+2025-02-02T19:58:48.322567-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 3, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:50.317356-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A great way to escape the city and enjoy nature.', 'guide': 'Jake', 'uuid': '21ea6e31-01e0-4ccc-a55f-caa8b6e651da', 'date': '2024-08-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:50.319379-0600 | INFO | 📝 Feedback (2024-08-27) | Guide: Jake | Comment: A great way to escape the city and enjoy nature.
+2025-02-02T19:58:50.320713-0600 | INFO | ⛅ 🌤 Sunny | 🌡 72°F | 💨 Wind 13 mph | 🌧 0.69 inches rain
+2025-02-02T19:58:50.321559-0600 | INFO | 🌊 🌊 Flow 869 cfs | 📏 Water Level 4.48 ft | 🌡 Water Temp 56°F
+2025-02-02T19:58:50.321559-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 4, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:52.318298-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Would highly recommend this for thrill-seekers.', 'guide': 'Carlos', 'uuid': '554e894a-f12b-4e1b-abc6-ca39d980c8cd', 'date': '2024-07-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:52.322306-0600 | INFO | 📝 Feedback (2024-07-27) | Guide: Carlos | Comment: Would highly recommend this for thrill-seekers.
+2025-02-02T19:58:52.322306-0600 | INFO | ⛅ 🌤 Sunny | 🌡 74°F | 💨 Wind 16 mph | 🌧 0.16 inches rain
+2025-02-02T19:58:52.323310-0600 | INFO | 🌊 🌊 Flow 1925 cfs | 📏 Water Level 4.45 ft | 🌡 Water Temp 65°F
+2025-02-02T19:58:52.323310-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 1, 'negative': 0}}
+2025-02-02T19:58:54.320567-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'An absolutely thrilling experience! Would do it again.', 'guide': 'Sophia', 'uuid': '8971d0b7-9a52-4415-9b9d-a22d655e4fd9', 'date': '2024-07-18', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:54.325604-0600 | INFO | 📝 Feedback (2024-07-18) | Guide: Sophia | Comment: An absolutely thrilling experience! Would do it again.
+2025-02-02T19:58:54.325604-0600 | INFO | ⛅ 🌤 Sunny | 🌡 81°F | 💨 Wind 10 mph | 🌧 0.09 inches rain
+2025-02-02T19:58:54.325604-0600 | INFO | 🌊 🌊 Flow 1080 cfs | 📏 Water Level 3.23 ft | 🌡 Water Temp 60°F
+2025-02-02T19:58:54.325604-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 1, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:58:56.322666-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A bucket-list experience checked off!', 'guide': 'Olivia', 'uuid': '027b6b49-ccbd-4fc1-b6a4-8c87f462a199', 'date': '2024-06-10', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:56.326695-0600 | INFO | 📝 Feedback (2024-06-10) | Guide: Olivia | Comment: A bucket-list experience checked off!
+2025-02-02T19:58:56.326695-0600 | INFO | ⛅ 🌤 Rainy | 🌡 86°F | 💨 Wind 20 mph | 🌧 0.64 inches rain
+2025-02-02T19:58:56.327695-0600 | INFO | 🌊 🌊 Flow 1721 cfs | 📏 Water Level 3.17 ft | 🌡 Water Temp 59°F
+2025-02-02T19:58:56.327695-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 7, 'negative': 0}, 'Olivia': {'positive': 2, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:58:58.323408-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Loved the rush of navigating the rapids.', 'guide': 'Mason', 'uuid': '5e6d3825-8d30-4edf-87f3-f1adc0ec7de0', 'date': '2024-07-17', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:58:58.326421-0600 | INFO | 📝 Feedback (2024-07-17) | Guide: Mason | Comment: Loved the rush of navigating the rapids.
+2025-02-02T19:58:58.326421-0600 | INFO | ⛅ 🌤 Rainy | 🌡 63°F | 💨 Wind 16 mph | 🌧 0.4 inches rain
+2025-02-02T19:58:58.327421-0600 | INFO | 🌊 🌊 Flow 855 cfs | 📏 Water Level 3.9 ft | 🌡 Water Temp 67°F
+2025-02-02T19:58:58.327421-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 2, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 2, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:00.324855-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Already planning my next trip!', 'guide': 'Liam', 'uuid': '01a72163-a706-46c7-8e8d-d840c9f996d1', 'date': '2024-07-21', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:00.327859-0600 | INFO | 📝 Feedback (2024-07-21) | Guide: Liam | Comment: Already planning my next trip!
+2025-02-02T19:59:00.327859-0600 | INFO | ⛅ 🌤 Rainy | 🌡 86°F | 💨 Wind 20 mph | 🌧 0.16 inches rain
+2025-02-02T19:59:00.327859-0600 | INFO | 🌊 🌊 Flow 1985 cfs | 📏 Water Level 3.31 ft | 🌡 Water Temp 72°F
+2025-02-02T19:59:00.327859-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 2, 'negative': 0}, 'Samantha': {'positive': 8, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:02.325790-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The rapids were intense! Such an adrenaline rush.', 'guide': 'Samantha', 'uuid': '8895037f-f187-44e5-bf78-6535b26ec996', 'date': '2024-08-04', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:02.328795-0600 | INFO | 📝 Feedback (2024-08-04) | Guide: Samantha | Comment: The rapids were intense! Such an adrenaline rush.
+2025-02-02T19:59:02.328795-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 62°F | 💨 Wind 12 mph | 🌧 0.44 inches rain
+2025-02-02T19:59:02.328795-0600 | INFO | 🌊 🌊 Flow 1154 cfs | 📏 Water Level 4.15 ft | 🌡 Water Temp 57°F
+2025-02-02T19:59:02.328795-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 2, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:04.326617-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Felt completely safe the entire time.', 'guide': 'Olivia', 'uuid': '06f5c628-562f-41d4-ad83-3f526f13ee98', 'date': '2024-06-18', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:04.328947-0600 | INFO | 📝 Feedback (2024-06-18) | Guide: Olivia | Comment: Felt completely safe the entire time.
+2025-02-02T19:59:04.329945-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 79°F | 💨 Wind 2 mph | 🌧 0.15 inches rain
+2025-02-02T19:59:04.329945-0600 | INFO | 🌊 🌊 Flow 850 cfs | 📏 Water Level 4.65 ft | 🌡 Water Temp 55°F
+2025-02-02T19:59:04.329945-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 5, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:06.327731-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The guides kept us entertained the whole time.', 'guide': 'Ava', 'uuid': '29834d35-beae-40fe-a3ce-c4ffa5d25d56', 'date': '2024-06-09', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:06.329736-0600 | INFO | 📝 Feedback (2024-06-09) | Guide: Ava | Comment: The guides kept us entertained the whole time.
+2025-02-02T19:59:06.329736-0600 | INFO | ⛅ 🌤 Stormy | 🌡 69°F | 💨 Wind 0 mph | 🌧 0.86 inches rain
+2025-02-02T19:59:06.330736-0600 | INFO | 🌊 🌊 Flow 1571 cfs | 📏 Water Level 2.84 ft | 🌡 Water Temp 75°F
+2025-02-02T19:59:06.330736-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 4, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:08.328755-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'So much fun! Worth every penny.', 'guide': 'Emily', 'uuid': '65abb89c-403f-4c63-a33c-7b16808ec614', 'date': '2024-07-19', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:08.330762-0600 | INFO | 📝 Feedback (2024-07-19) | Guide: Emily | Comment: So much fun! Worth every penny.
+2025-02-02T19:59:08.330762-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 90°F | 💨 Wind 2 mph | 🌧 0.89 inches rain
+2025-02-02T19:59:08.330762-0600 | INFO | 🌊 🌊 Flow 1197 cfs | 📏 Water Level 2.58 ft | 🌡 Water Temp 66°F
+2025-02-02T19:59:08.331760-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 5, 'negative': 0}, 'Emily': {'positive': 5, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:10.329466-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Everything was well-organized and seamless.', 'guide': 'Carlos', 'uuid': '6157e441-a1a0-4104-819a-cba07f5ef846', 'date': '2024-08-12', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:10.332473-0600 | INFO | 📝 Feedback (2024-08-12) | Guide: Carlos | Comment: Everything was well-organized and seamless.
+2025-02-02T19:59:10.332473-0600 | INFO | ⛅ 🌤 Rainy | 🌡 89°F | 💨 Wind 8 mph | 🌧 0.33 inches rain
+2025-02-02T19:59:10.333474-0600 | INFO | 🌊 🌊 Flow 1595 cfs | 📏 Water Level 4.15 ft | 🌡 Water Temp 72°F
+2025-02-02T19:59:10.333474-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 8, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 6, 'negative': 0}, 'Emily': {'positive': 5, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:12.330313-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'An unforgettable experience, can’t wait to book again!', 'guide': 'Mason', 'uuid': '00fff60c-ae95-4ff3-b9ef-a294880ad43c', 'date': '2024-08-20', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:12.332319-0600 | INFO | 📝 Feedback (2024-08-20) | Guide: Mason | Comment: An unforgettable experience, can’t wait to book again!
+2025-02-02T19:59:12.332319-0600 | INFO | ⛅ 🌤 Sunny | 🌡 67°F | 💨 Wind 13 mph | 🌧 0.63 inches rain
+2025-02-02T19:59:12.333318-0600 | INFO | 🌊 🌊 Flow 1354 cfs | 📏 Water Level 4.93 ft | 🌡 Water Temp 66°F
+2025-02-02T19:59:12.333318-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 4, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 6, 'negative': 0}, 'Emily': {'positive': 5, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:14.331483-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The guide was so knowledgeable, learned a lot about the river.', 'guide': 'Jake', 'uuid': '67ca69b9-af0a-4774-8f06-d4bc12d9485a', 'date': '2024-06-13', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:14.333489-0600 | INFO | 📝 Feedback (2024-06-13) | Guide: Jake | Comment: The guide was so knowledgeable, learned a lot about the river.
+2025-02-02T19:59:14.333489-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 66°F | 💨 Wind 3 mph | 🌧 0.12 inches rain
+2025-02-02T19:59:14.333489-0600 | INFO | 🌊 🌊 Flow 1838 cfs | 📏 Water Level 3.57 ft | 🌡 Water Temp 60°F
+2025-02-02T19:59:14.334487-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 5, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 6, 'negative': 0}, 'Emily': {'positive': 5, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:16.332321-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Our guide was fantastic, made us feel safe the entire time.', 'guide': 'Carlos', 'uuid': '4ba67913-7c0e-4e19-84db-97b4dc013167', 'date': '2024-07-08', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:16.335328-0600 | INFO | 📝 Feedback (2024-07-08) | Guide: Carlos | Comment: Our guide was fantastic, made us feel safe the entire time.
+2025-02-02T19:59:16.335328-0600 | INFO | ⛅ 🌤 Stormy | 🌡 87°F | 💨 Wind 14 mph | 🌧 0.29 inches rain
+2025-02-02T19:59:16.335328-0600 | INFO | 🌊 🌊 Flow 1242 cfs | 📏 Water Level 2.53 ft | 🌡 Water Temp 57°F
+2025-02-02T19:59:16.335328-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 5, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 7, 'negative': 0}, 'Emily': {'positive': 5, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:18.333427-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Already planning my next trip!', 'guide': 'Emily', 'uuid': '80937773-63b0-42ea-aaa4-0f643ab52785', 'date': '2024-08-10', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:18.335431-0600 | INFO | 📝 Feedback (2024-08-10) | Guide: Emily | Comment: Already planning my next trip!
+2025-02-02T19:59:18.336430-0600 | INFO | ⛅ 🌤 Stormy | 🌡 72°F | 💨 Wind 11 mph | 🌧 0.96 inches rain
+2025-02-02T19:59:18.339431-0600 | INFO | 🌊 🌊 Flow 856 cfs | 📏 Water Level 3.12 ft | 🌡 Water Temp 62°F
+2025-02-02T19:59:18.339431-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 5, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 7, 'negative': 0}, 'Emily': {'positive': 6, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:20.334392-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Saw an eagle soaring above us—what a moment!', 'guide': 'Emily', 'uuid': '26efee47-3515-40ad-a976-8cf9bb826aaf', 'date': '2024-06-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:20.337396-0600 | INFO | 📝 Feedback (2024-06-27) | Guide: Emily | Comment: Saw an eagle soaring above us—what a moment!
+2025-02-02T19:59:20.337396-0600 | INFO | ⛅ 🌤 Rainy | 🌡 62°F | 💨 Wind 6 mph | 🌧 0.08 inches rain
+2025-02-02T19:59:20.337396-0600 | INFO | 🌊 🌊 Flow 1518 cfs | 📏 Water Level 3.97 ft | 🌡 Water Temp 62°F
+2025-02-02T19:59:20.337396-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 5, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 7, 'negative': 0}, 'Emily': {'positive': 7, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:22.335136-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Loved the thrill of hitting the bigger waves!', 'guide': 'Jake', 'uuid': 'fcdfd040-bd80-487d-984a-0ba2a4fed3a4', 'date': '2024-07-26', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:22.337142-0600 | INFO | 📝 Feedback (2024-07-26) | Guide: Jake | Comment: Loved the thrill of hitting the bigger waves!
+2025-02-02T19:59:22.337142-0600 | INFO | ⛅ 🌤 Sunny | 🌡 86°F | 💨 Wind 16 mph | 🌧 0.95 inches rain
+2025-02-02T19:59:22.337142-0600 | INFO | 🌊 🌊 Flow 983 cfs | 📏 Water Level 4.96 ft | 🌡 Water Temp 55°F
+2025-02-02T19:59:22.338142-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 9, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 7, 'negative': 0}, 'Emily': {'positive': 7, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:24.336155-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Great for corporate team-building activities.', 'guide': 'Samantha', 'uuid': '326dc8bf-cd42-4acb-8103-99f8db0439a1', 'date': '2024-07-20', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:24.338907-0600 | INFO | 📝 Feedback (2024-07-20) | Guide: Samantha | Comment: Great for corporate team-building activities.
+2025-02-02T19:59:24.339727-0600 | INFO | ⛅ 🌤 Sunny | 🌡 87°F | 💨 Wind 13 mph | 🌧 0.9 inches rain
+2025-02-02T19:59:24.339727-0600 | INFO | 🌊 🌊 Flow 1627 cfs | 📏 Water Level 2.75 ft | 🌡 Water Temp 67°F
+2025-02-02T19:59:24.339727-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 10, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 7, 'negative': 0}, 'Emily': {'positive': 7, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:26.337631-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'So much fun! Worth every penny.', 'guide': 'Carlos', 'uuid': '8f74fbcd-b5bf-4cac-b594-515aa4030c65', 'date': '2024-06-25', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:26.344638-0600 | INFO | 📝 Feedback (2024-06-25) | Guide: Carlos | Comment: So much fun! Worth every penny.
+2025-02-02T19:59:26.345638-0600 | INFO | ⛅ 🌤 Rainy | 🌡 71°F | 💨 Wind 14 mph | 🌧 0.86 inches rain
+2025-02-02T19:59:26.345638-0600 | INFO | 🌊 🌊 Flow 1244 cfs | 📏 Water Level 3.47 ft | 🌡 Water Temp 59°F
+2025-02-02T19:59:26.345638-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 10, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 8, 'negative': 0}, 'Emily': {'positive': 7, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:28.340688-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'I can’t stop talking about this trip!', 'guide': 'Emily', 'uuid': '5731e0d9-8aed-4006-a752-975906f5b64b', 'date': '2024-07-01', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:28.346675-0600 | INFO | 📝 Feedback (2024-07-01) | Guide: Emily | Comment: I can’t stop talking about this trip!
+2025-02-02T19:59:28.348201-0600 | INFO | ⛅ 🌤 Sunny | 🌡 89°F | 💨 Wind 14 mph | 🌧 0.15 inches rain
+2025-02-02T19:59:28.348201-0600 | INFO | 🌊 🌊 Flow 1078 cfs | 📏 Water Level 4.88 ft | 🌡 Water Temp 55°F
+2025-02-02T19:59:28.348201-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 6, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 10, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 8, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:30.347752-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'An absolutely thrilling experience! Would do it again.', 'guide': 'Tyler', 'uuid': '13b78049-01ac-4e23-a51b-d9a75502b874', 'date': '2024-08-15', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:30.351697-0600 | INFO | 📝 Feedback (2024-08-15) | Guide: Tyler | Comment: An absolutely thrilling experience! Would do it again.
+2025-02-02T19:59:30.351697-0600 | INFO | ⛅ 🌤 Stormy | 🌡 74°F | 💨 Wind 3 mph | 🌧 0.82 inches rain
+2025-02-02T19:59:30.351697-0600 | INFO | 🌊 🌊 Flow 1270 cfs | 📏 Water Level 3.79 ft | 🌡 Water Temp 62°F
+2025-02-02T19:59:30.351697-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 10, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 8, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:32.348622-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Such a peaceful yet exhilarating adventure.', 'guide': 'Samantha', 'uuid': 'ca890c58-9575-4dde-a563-6de4aa0fd346', 'date': '2024-07-06', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:32.350626-0600 | INFO | 📝 Feedback (2024-07-06) | Guide: Samantha | Comment: Such a peaceful yet exhilarating adventure.
+2025-02-02T19:59:32.350626-0600 | INFO | ⛅ 🌤 Rainy | 🌡 82°F | 💨 Wind 5 mph | 🌧 0.37 inches rain
+2025-02-02T19:59:32.351626-0600 | INFO | 🌊 🌊 Flow 1562 cfs | 📏 Water Level 3.42 ft | 🌡 Water Temp 72°F
+2025-02-02T19:59:32.351626-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 11, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 8, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:34.349442-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'Great bonding experience for our group.', 'guide': 'Samantha', 'uuid': '06430a20-7282-42a3-82ab-c7047751eed1', 'date': '2024-08-28', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:34.351447-0600 | INFO | 📝 Feedback (2024-08-28) | Guide: Samantha | Comment: Great bonding experience for our group.
+2025-02-02T19:59:34.352449-0600 | INFO | ⛅ 🌤 Stormy | 🌡 77°F | 💨 Wind 15 mph | 🌧 0.81 inches rain
+2025-02-02T19:59:34.352449-0600 | INFO | 🌊 🌊 Flow 902 cfs | 📏 Water Level 4.84 ft | 🌡 Water Temp 66°F
+2025-02-02T19:59:34.352449-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 12, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 8, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:36.350488-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'A must-do experience for nature lovers!', 'guide': 'Carlos', 'uuid': 'b394e4ce-5275-4159-ac3a-b182c1866789', 'date': '2024-07-08', 'trip_type': 'Half Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:36.352494-0600 | INFO | 📝 Feedback (2024-07-08) | Guide: Carlos | Comment: A must-do experience for nature lovers!
+2025-02-02T19:59:36.353494-0600 | INFO | ⛅ 🌤 Stormy | 🌡 87°F | 💨 Wind 14 mph | 🌧 0.29 inches rain
+2025-02-02T19:59:36.353494-0600 | INFO | 🌊 🌊 Flow 1242 cfs | 📏 Water Level 2.53 ft | 🌡 Water Temp 57°F
+2025-02-02T19:59:36.353494-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 12, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 9, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:38.351796-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'An absolutely thrilling experience! Would do it again.', 'guide': 'Samantha', 'uuid': '4e589c35-217e-489c-aa4d-b7a4d0813dfa', 'date': '2024-08-04', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:38.355471-0600 | INFO | 📝 Feedback (2024-08-04) | Guide: Samantha | Comment: An absolutely thrilling experience! Would do it again.
+2025-02-02T19:59:38.356575-0600 | INFO | ⛅ 🌤 Cloudy | 🌡 62°F | 💨 Wind 12 mph | 🌧 0.44 inches rain
+2025-02-02T19:59:38.356575-0600 | INFO | 🌊 🌊 Flow 1154 cfs | 📏 Water Level 4.15 ft | 🌡 Water Temp 57°F
+2025-02-02T19:59:38.356575-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 13, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 9, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 2, 'negative': 0}}
+2025-02-02T19:59:40.352750-0600 | INFO | 📨 Sent message to Kafka: {'comment': 'The pre-trip instructions were thorough and helpful.', 'guide': 'Sophia', 'uuid': 'ee3004c1-c7ff-4c02-981a-82612ba7987d', 'date': '2024-08-27', 'trip_type': 'Full Day', 'timestamp': '2025-02-03T01:57:27.061047', 'is_negative': False}
+2025-02-02T19:59:40.354904-0600 | INFO | 📝 Feedback (2024-08-27) | Guide: Sophia | Comment: The pre-trip instructions were thorough and helpful.
+2025-02-02T19:59:40.354904-0600 | INFO | ⛅ 🌤 Sunny | 🌡 72°F | 💨 Wind 13 mph | 🌧 0.69 inches rain
+2025-02-02T19:59:40.354904-0600 | INFO | 🌊 🌊 Flow 869 cfs | 📏 Water Level 4.48 ft | 🌡 Water Temp 56°F
+2025-02-02T19:59:40.354904-0600 | INFO | 📊 Updated feedback counts: {'Ava': {'positive': 6, 'negative': 0}, 'Tyler': {'positive': 7, 'negative': 0}, 'Jake': {'positive': 6, 'negative': 0}, 'Mason': {'positive': 9, 'negative': 0}, 'Olivia': {'positive': 3, 'negative': 0}, 'Samantha': {'positive': 13, 'negative': 0}, 'Liam': {'positive': 3, 'negative': 0}, 'Carlos': {'positive': 9, 'negative': 0}, 'Emily': {'positive': 8, 'negative': 0}, 'Sophia': {'positive': 3, 'negative': 0}}
